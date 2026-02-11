@@ -1,0 +1,875 @@
+rank,name,degree,category,num_papers,safety_score,ethics_score
+1,Pin-Yu Chen,137,mixed,16,19.0,3.0
+2,Huan Zhang,134,mixed,6,7.0,1.0
+3,James Zou,113,mixed,13,6.0,9.0
+4,Bo Li,112,mixed,26,25.0,10.0
+5,Caiming Xiong,102,mixed,5,5.0,1.0
+6,Adrian Weller,97,mixed,14,9.0,9.0
+7,Xiao Wang,95,mixed,4,3.0,1.0
+8,"Chang, Kai-Wei",93,mixed,25,11.0,22.0
+9,Yan Liu,93,mixed,5,4.0,1.0
+10,Kai-Wei Chang,92,mixed,6,2.0,6.0
+11,Tianlong Chen,90,pure_safety,7,8.0,0.0
+12,"Choi, Yejin",87,mixed,16,9.0,12.0
+13,Furong Huang,87,mixed,5,4.0,1.0
+14,Chaowei Xiao,86,mixed,5,4.0,2.0
+15,Huaxiu Yao,86,mixed,4,2.0,2.0
+16,Yang Liu,85,mixed,23,10.0,21.0
+17,Maarten Sap,84,mixed,6,3.0,4.0
+18,Eric P. Xing,83,pure_safety,4,4.0,0.0
+19,Quanquan Gu,81,mixed,3,2.0,1.0
+20,Xuyu Wang,81,mixed,2,1.0,2.0
+21,Yue Zhao,80,mixed,3,2.0,2.0
+22,Percy Liang,79,mixed,13,12.0,5.0
+23,Jieyu Zhao,79,mixed,2,1.0,1.0
+24,William Agnew,78,pure_ethics,6,0.0,6.0
+25,Tianyi Zhou,78,pure_safety,2,3.0,0.0
+26,Xing Xie,78,mixed,3,1.0,2.0
+27,Yanfang Ye,78,mixed,3,2.0,2.0
+28,Lichao Sun,77,mixed,3,3.0,1.0
+29,Philip S. Yu,76,mixed,2,1.0,1.0
+30,Jianfeng Gao,75,pure_safety,2,2.0,0.0
+31,Hao Liu,75,mixed,3,2.0,1.0
+32,Neil Zhenqiang Gong,75,pure_safety,4,4.0,0.0
+33,Avijit Ghosh,74,mixed,9,3.0,8.0
+34,Zeerak Talat,74,pure_ethics,3,0.0,3.0
+35,Shuiwang Ji,74,pure_safety,2,2.0,0.0
+36,Yixin Liu,74,pure_safety,2,3.0,0.0
+37,Heng Ji,74,mixed,2,1.0,1.0
+38,Kaidi Xu,74,pure_safety,2,2.0,0.0
+39,Suman Jana,74,pure_safety,2,2.0,0.0
+40,Xiang Li,74,pure_safety,2,2.0,0.0
+41,Bertie Vidgen,73,pure_safety,2,2.0,0.0
+42,Mohit Bansal,73,pure_safety,2,2.0,0.0
+43,Jian Liu,73,pure_safety,2,3.0,0.0
+44,Rex Ying,73,pure_safety,2,2.0,0.0
+45,Kai Shu,71,mixed,2,1.0,1.0
+46,"Perez, Ethan",70,pure_safety,2,3.0,0.0
+47,Anaelia Ovalle,70,pure_ethics,5,0.0,7.0
+48,Yue Huang,70,pure_safety,1,1.0,0.0
+49,Haoran Wang,70,pure_safety,1,1.0,0.0
+50,Siyuan Wu,70,pure_safety,1,1.0,0.0
+51,Qihui Zhang,70,pure_safety,1,1.0,0.0
+52,Yuan Li,70,pure_safety,1,1.0,0.0
+53,Chujie Gao,70,pure_safety,1,1.0,0.0
+54,Yixin Huang,70,pure_safety,1,1.0,0.0
+55,Wenhan Lyu,70,pure_safety,1,1.0,0.0
+56,Yixuan Zhang,70,pure_safety,1,1.0,0.0
+57,Xiner Li,70,pure_safety,1,1.0,0.0
+58,Hanchi Sun,70,pure_safety,1,1.0,0.0
+59,Zhengliang Liu,70,pure_safety,1,1.0,0.0
+60,Yijue Wang,70,pure_safety,1,1.0,0.0
+61,Zhikun Zhang,70,pure_safety,1,1.0,0.0
+62,Bhavya Kailkhura,70,pure_safety,1,1.0,0.0
+63,Chunyuan Li,70,pure_safety,1,1.0,0.0
+64,Hongyi Wang,70,pure_safety,1,1.0,0.0
+65,Manolis Kellis,70,pure_safety,1,1.0,0.0
+66,Marinka Zitnik,70,pure_safety,1,1.0,0.0
+67,Meng Jiang,70,pure_safety,1,1.0,0.0
+68,Jian Pei,70,pure_safety,1,1.0,0.0
+69,Jiawei Han,70,pure_safety,1,1.0,0.0
+70,Jiliang Tang,70,pure_safety,1,1.0,0.0
+71,Jindong Wang,70,pure_safety,1,1.0,0.0
+72,Joaquin Vanschoren,70,pure_safety,1,1.0,0.0
+73,John C. Mitchell,70,pure_safety,1,1.0,0.0
+74,Lifang He,70,pure_safety,1,1.0,0.0
+75,Lifu Huang,70,pure_safety,1,1.0,0.0
+76,Michael Backes,70,pure_safety,1,1.0,0.0
+77,Ran Xu,70,pure_safety,1,1.0,0.0
+78,Tianming Liu,70,pure_safety,1,1.0,0.0
+79,William Wang,70,pure_safety,1,1.0,0.0
+80,Xiangliang Zhang,70,pure_safety,1,1.0,0.0
+81,Xun Chen,70,pure_safety,1,1.0,0.0
+82,Yinzhi Cao,70,pure_safety,1,1.0,0.0
+83,Yong Chen,70,pure_safety,1,1.0,0.0
+84,Jackie Kay,69,mixed,5,2.0,4.0
+85,"Huang, Minlie",67,mixed,11,10.0,2.0
+86,Luca Soldaini,67,pure_ethics,3,0.0,3.0
+87,Peter Henderson,67,mixed,8,6.0,5.0
+88,"Bowman, Samuel R.",66,mixed,3,3.0,1.0
+89,"Baldwin, Timothy",64,mixed,18,6.0,17.0
+90,"Huang, Xuanjing",64,mixed,14,17.0,4.0
+91,"Ringer, Sam",62,pure_safety,1,2.0,0.0
+92,"Lukosiute, Kamile",62,pure_safety,1,2.0,0.0
+93,"Nguyen, Karina",62,pure_safety,1,2.0,0.0
+94,"Chen, Edwin",62,pure_safety,1,2.0,0.0
+95,"Heiner, Scott",62,pure_safety,1,2.0,0.0
+96,"Pettit, Craig",62,pure_safety,1,2.0,0.0
+97,"Olsson, Catherine",62,pure_safety,1,2.0,0.0
+98,"Kundu, Sandipan",62,pure_safety,1,2.0,0.0
+99,"Kadavath, Saurav",62,pure_safety,1,2.0,0.0
+100,"Jones, Andy",62,pure_safety,1,2.0,0.0
+101,"Chen, Anna",62,pure_safety,1,2.0,0.0
+102,"Mann, Benjamin",62,pure_safety,1,2.0,0.0
+103,"Israel, Brian",62,pure_safety,1,2.0,0.0
+104,"Seethor, Bryan",62,pure_safety,1,2.0,0.0
+105,"McKinnon, Cameron",62,pure_safety,1,2.0,0.0
+106,"Olah, Christopher",62,pure_safety,1,2.0,0.0
+107,"Yan, Da",62,pure_safety,1,2.0,0.0
+108,"Amodei, Daniela",62,pure_safety,1,2.0,0.0
+109,"Amodei, Dario",62,pure_safety,1,2.0,0.0
+110,"Drain, Dawn",62,pure_safety,1,2.0,0.0
+111,"Li, Dustin",62,pure_safety,1,2.0,0.0
+112,"Tran-Johnson, Eli",62,pure_safety,1,2.0,0.0
+113,"Khundadze, Guro",62,pure_safety,1,2.0,0.0
+114,"Kernion, Jackson",62,pure_safety,1,2.0,0.0
+115,"Landis, James",62,pure_safety,1,2.0,0.0
+116,"Kerr, Jamie",62,pure_safety,1,2.0,0.0
+117,"Mueller, Jared",62,pure_safety,1,2.0,0.0
+118,"Hyun, Jeeyoon",62,pure_safety,1,2.0,0.0
+119,"Landau, Joshua",62,pure_safety,1,2.0,0.0
+120,"Ndousse, Kamal",62,pure_safety,1,2.0,0.0
+121,"Goldberg, Landon",62,pure_safety,1,2.0,0.0
+122,"Lovitt, Liane",62,pure_safety,1,2.0,0.0
+123,"Lucas, Martin",62,pure_safety,1,2.0,0.0
+124,"Sellitto, Michael",62,pure_safety,1,2.0,0.0
+125,"Zhang, Miranda",62,pure_safety,1,2.0,0.0
+126,"Kingsland, Neerav",62,pure_safety,1,2.0,0.0
+127,"Elhage, Nelson",62,pure_safety,1,2.0,0.0
+128,"Joseph, Nicholas",62,pure_safety,1,2.0,0.0
+129,"Mercado, Noemi",62,pure_safety,1,2.0,0.0
+130,"DasSarma, Nova",62,pure_safety,1,2.0,0.0
+131,"Rausch, Oliver",62,pure_safety,1,2.0,0.0
+132,"Larson, Robin",62,pure_safety,1,2.0,0.0
+133,"McCandlish, Sam",62,pure_safety,1,2.0,0.0
+134,"Johnston, Scott",62,pure_safety,1,2.0,0.0
+135,"Kravec, Shauna",62,pure_safety,1,2.0,0.0
+136,"El Showk, Sheer",62,pure_safety,1,2.0,0.0
+137,"Lanham, Tamera",62,pure_safety,1,2.0,0.0
+138,"Telleen-Lawton, Timothy",62,pure_safety,1,2.0,0.0
+139,"Brown, Tom",62,pure_safety,1,2.0,0.0
+140,"Henighan, Tom",62,pure_safety,1,2.0,0.0
+141,"Hume, Tristan",62,pure_safety,1,2.0,0.0
+142,"Bai, Yuntao",62,pure_safety,1,2.0,0.0
+143,"Hatfield-Dodds, Zac",62,pure_safety,1,2.0,0.0
+144,"Clark, Jack",62,pure_safety,1,2.0,0.0
+145,"Askell, Amanda",62,pure_safety,1,2.0,0.0
+146,"Grosse, Roger",62,pure_safety,1,2.0,0.0
+147,"Hernandez, Danny",62,pure_safety,1,2.0,0.0
+148,"Ganguli, Deep",62,pure_safety,1,2.0,0.0
+149,"Hubinger, Evan",62,pure_safety,1,2.0,0.0
+150,"Schiefer, Nicholas",62,pure_safety,1,2.0,0.0
+151,"Kaplan, Jared",62,pure_safety,1,2.0,0.0
+152,"Nakov, Preslav",61,mixed,10,9.0,2.0
+153,Umang Bhatt,61,mixed,8,6.0,5.0
+154,Arjun Subramonian,60,pure_ethics,4,0.0,5.0
+155,David Krueger,58,mixed,6,5.0,3.0
+156,Ruoxi Jia,57,mixed,9,8.0,5.0
+157,Luke Stark,57,mixed,8,3.0,7.0
+158,Rishi Bommasani,56,mixed,6,3.0,5.0
+159,"Gurevych, Iryna",55,mixed,8,5.0,4.0
+160,Ashwin Singh,55,pure_ethics,2,0.0,2.0
+161,"Wang, Yuxia",54,mixed,6,6.0,1.0
+162,"Liu, Pengfei",54,mixed,4,4.0,3.0
+163,Pan Xu,53,pure_ethics,2,0.0,2.0
+164,Yi Zeng,53,mixed,7,8.0,3.0
+165,Luke Zettlemoyer,53,mixed,9,6.0,5.0
+166,"Wang, Hao",52,mixed,5,3.0,2.0
+167,"Yang, Yaodong",52,mixed,4,4.0,1.0
+168,"Longpre, Shayne",52,mixed,5,3.0,3.0
+169,Solon Barocas,51,mixed,19,3.0,18.0
+170,"Han, Xudong",50,mixed,12,4.0,11.0
+171,Yangsibo Huang,50,mixed,7,6.0,4.0
+172,"Zhang, Qi",49,mixed,9,10.0,2.0
+173,"Adewumi, Tosin",49,mixed,3,4.0,2.0
+174,Hetvi Jethwani,49,pure_ethics,2,0.0,2.0
+175,Sergey Levine,49,pure_safety,8,11.0,0.0
+176,Organizers Of QueerInAI,49,pure_ethics,1,0.0,1.0
+177,Claas Voelcker,49,pure_ethics,1,0.0,1.0
+178,Danica J. Sutherland,49,pure_ethics,1,0.0,1.0
+179,Davide Locatelli,49,pure_ethics,1,0.0,1.0
+180,Eva Breznik,49,pure_ethics,1,0.0,1.0
+181,Filip Klubicka,49,pure_ethics,1,0.0,1.0
+182,Hang Yuan,49,pure_ethics,1,0.0,1.0
+183,Jaidev Shriram,49,pure_ethics,1,0.0,1.0
+184,Kruno Lehman,49,pure_ethics,1,0.0,1.0
+185,Marc Peter Deisenroth,49,pure_ethics,1,0.0,1.0
+186,Maria Leonor Pacheco,49,pure_ethics,1,0.0,1.0
+187,Maria Ryskina,49,pure_ethics,1,0.0,1.0
+188,Martin Mundt,49,pure_ethics,1,0.0,1.0
+189,Milind Agarwal,49,pure_ethics,1,0.0,1.0
+190,Nyx McLean,49,pure_ethics,1,0.0,1.0
+191,Pranav A,49,pure_ethics,1,0.0,1.0
+192,Raj Korpan,49,pure_ethics,1,0.0,1.0
+193,Ruchira Ray,49,pure_ethics,1,0.0,1.0
+194,Sarah Mathew,49,pure_ethics,1,0.0,1.0
+195,Sarthak Arora,49,pure_ethics,1,0.0,1.0
+196,St John,49,pure_ethics,1,0.0,1.0
+197,Tanvi Anand,49,pure_ethics,1,0.0,1.0
+198,Vishakha Agrawal,49,pure_ethics,2,0.0,3.0
+199,Yanan Long,49,pure_ethics,1,0.0,1.0
+200,Zijie J. Wang,49,pure_ethics,1,0.0,1.0
+201,Nathaniel Dennler,49,pure_ethics,1,0.0,1.0
+202,Michael Noseworthy,49,pure_ethics,1,0.0,1.0
+203,Sharvani Jha,49,pure_ethics,1,0.0,1.0
+204,Emi Baylor,49,pure_ethics,1,0.0,1.0
+205,Aditya Joshi,49,pure_ethics,1,0.0,1.0
+206,Natalia Y. Bilenko,49,pure_ethics,1,0.0,1.0
+207,Andrew McNamara,49,pure_ethics,1,0.0,1.0
+208,Raphael Gontijo Lopes,49,pure_ethics,1,0.0,1.0
+209,Alex Markham,49,pure_ethics,1,0.0,1.0
+210,Evyn Dong,49,pure_ethics,1,0.0,1.0
+211,Manu Saraswat,49,pure_ethics,1,0.0,1.0
+212,Nikhil Vytla,49,pure_ethics,1,0.0,1.0
+213,"Lin, Bill Yuchen",48,mixed,7,3.0,6.0
+214,"Poria, Soujanya",48,mixed,6,10.0,2.0
+215,Neel Nanda,48,mixed,8,14.0,1.0
+216,et al.,48,mixed,3,1.0,4.0
+217,"Peng, Nanyun",47,mixed,11,7.0,5.0
+218,"Ji, Heng",47,mixed,9,6.0,7.0
+219,"Oh, Alice",47,mixed,7,1.0,7.0
+220,Abeba Birhane,47,mixed,8,1.0,11.0
+221,Shayne Longpre,47,mixed,4,1.0,5.0
+222,Anka Reuel,47,mixed,7,5.0,6.0
+223,"Sap, Maarten",46,mixed,13,4.0,11.0
+224,"Friedrich, Felix",46,mixed,2,3.0,1.0
+225,Andrew Smart,46,mixed,11,3.0,9.0
+226,Alan Chan,46,mixed,4,2.0,4.0
+227,Tongliang Liu,46,mixed,8,8.0,1.0
+228,"Bhardwaj, Rishabh",45,mixed,4,6.0,2.0
+229,"Chai, Yekun",45,pure_safety,2,4.0,0.0
+230,"Navigli, Roberto",45,pure_safety,3,5.0,0.0
+231,"Roth, Dan",45,mixed,8,8.0,1.0
+232,Kush R. Varshney,45,mixed,12,5.0,17.0
+233,"Dernoncourt, Franck",44,mixed,8,6.0,7.0
+234,"Mu, Honglin",44,mixed,2,1.0,1.0
+235,"Koto, Fajri",44,mixed,2,1.0,1.0
+236,"Martins, Andre",44,mixed,5,3.0,2.0
+237,Prasanna Sattigeri,44,mixed,6,6.0,5.0
+238,Kevin Klyman,44,mixed,7,2.0,8.0
+239,"Choudhury, Monojit",43,pure_ethics,3,0.0,3.0
+240,"Qiu, Xipeng",43,mixed,7,4.0,5.0
+241,"Ren, Xiang",43,mixed,8,4.0,10.0
+242,Hoda Heidari,43,mixed,12,4.0,9.0
+243,Margaret Mitchell,43,pure_ethics,8,0.0,9.0
+244,Olivier Bachem,43,pure_safety,4,4.0,0.0
+245,Qi Zhang,43,mixed,6,5.0,1.0
+246,"Kusa, Wojciech",42,pure_safety,2,6.0,0.0
+247,"Liu, Yi",42,mixed,3,4.0,1.0
+248,"Yadav, Prateek",42,pure_safety,2,4.0,0.0
+249,"Zhao, Jieyu",42,mixed,11,5.0,11.0
+250,Alexandra Chouldechova,42,mixed,15,6.0,16.0
+251,Sertan Girgin,42,pure_safety,3,3.0,0.0
+252,Noah A. Smith,42,mixed,5,1.0,4.0
+253,Amanda Askell,42,mixed,2,2.0,1.0
+254,Zac Hatfield-Dodds,42,mixed,2,2.0,1.0
+255,Shauna Kravec,42,mixed,2,2.0,1.0
+256,Kamal Ndousse,42,mixed,2,2.0,1.0
+257,Sam McCandlish,42,mixed,2,2.0,1.0
+258,"Wong, Kam-Fai",41,mixed,8,4.0,7.0
+259,"Shelmanov, Artem",41,mixed,3,1.0,2.0
+260,"Yuan, Youliang",41,mixed,2,1.0,1.0
+261,"Chen, Muhao",41,mixed,13,12.0,5.0
+262,"Luo, Ziyang",41,mixed,2,3.0,2.0
+263,"Gupta, Rahul",41,mixed,9,3.0,11.0
+264,Ethan Perez,41,mixed,5,7.0,1.0
+265,"Kuribayashi, Tatsuki",40,mixed,2,1.0,1.0
+266,"Dong, Yinpeng",40,mixed,2,1.0,1.0
+267,"Nakamura, Taishi",40,pure_safety,1,3.0,0.0
+268,"Mishra, Mayank",40,pure_safety,1,3.0,0.0
+269,"Tedeschi, Simone",40,pure_safety,1,3.0,0.0
+270,"Stillerman, Jason T.",40,pure_safety,1,3.0,0.0
+271,"Laud, Tanmay",40,pure_safety,1,3.0,0.0
+272,"Chien, Vu Minh",40,pure_safety,1,3.0,0.0
+273,"Zhuo, Terry Yue",40,pure_safety,1,3.0,0.0
+274,"Misra, Diganta",40,pure_safety,1,3.0,0.0
+275,"Bogin, Ben",40,pure_safety,1,3.0,0.0
+276,"Vu, Xuan-Son",40,pure_safety,1,3.0,0.0
+277,"Karpinska, Marzena",40,pure_safety,1,3.0,0.0
+278,"Dantuluri, Arnav Varma",40,pure_safety,1,3.0,0.0
+279,"Furlanello, Tommaso",40,pure_safety,1,3.0,0.0
+280,"Yokota, Rio",40,pure_safety,1,3.0,0.0
+281,"Muennighoff, Niklas",40,pure_safety,1,3.0,0.0
+282,"Pai, Suhas",40,pure_safety,1,3.0,0.0
+283,"Laippala, Veronika",40,pure_safety,1,3.0,0.0
+284,"Yao, Xiaozhe",40,pure_safety,1,3.0,0.0
+285,"Junior, Adalberto Barbosa",40,pure_safety,1,3.0,0.0
+286,"Drozd, Aleksandr",40,pure_safety,1,3.0,0.0
+287,"Clive, Jordan",40,pure_safety,1,3.0,0.0
+288,"Gupta, Kshitij",40,pure_safety,1,3.0,0.0
+289,"Chen, Liangyu",40,pure_safety,1,3.0,0.0
+290,"Sun, Qi",40,pure_safety,1,3.0,0.0
+291,"Tsui, Ken",40,pure_safety,1,3.0,0.0
+292,"Moustafa-Fahmy, Nour",40,pure_safety,1,3.0,0.0
+293,"Monti, Nicolo",40,pure_safety,1,3.0,0.0
+294,"Dang, Tai",40,pure_safety,1,3.0,0.0
+295,"Bui, Tien-Tung",40,pure_safety,1,3.0,0.0
+296,"Mehta, Virendra",40,pure_safety,1,3.0,0.0
+297,"Blumberg, Matthew",40,pure_safety,1,3.0,0.0
+298,"May, Victor",40,pure_safety,1,3.0,0.0
+299,"Nguyen, Hiep",40,pure_safety,1,3.0,0.0
+300,"Pyysalo, Sampo",40,pure_safety,1,3.0,0.0
+301,Alice Xiang,40,mixed,11,6.0,11.0
+302,Q. Vera Liao,40,mixed,7,7.0,4.0
+303,Sayash Kapoor,40,mixed,5,2.0,5.0
+304,Tom Goldstein,40,mixed,10,6.0,5.0
+305,Iason Gabriel,40,mixed,6,2.0,7.0
+306,Dan Hendrycks,40,mixed,6,5.0,2.0
+307,Dawn Song,40,mixed,9,9.0,5.0
+308,Stuart Russell,40,mixed,6,9.0,2.0
+309,"McAuley, Julian",39,mixed,11,5.0,13.0
+310,"Yu, Yue",39,mixed,5,2.0,3.0
+311,"Alghamdi, Emad A.",39,mixed,2,1.0,1.0
+312,"Zhang, Min",39,mixed,9,6.0,5.0
+313,"Zhang, Tong",39,pure_safety,7,13.0,0.0
+314,John P. Dickerson,39,mixed,14,6.0,14.0
+315,Bilal Piot,39,pure_safety,3,3.0,0.0
+316,"Hovy, Eduard",38,mixed,3,1.0,2.0
+317,Inioluwa Deborah Raji,38,mixed,9,2.0,13.0
+318,Chelsea Finn,38,mixed,5,5.0,2.0
+319,Jesse Dodge,38,pure_ethics,3,0.0,3.0
+320,"Qi, Xiangyu",37,mixed,2,1.0,1.0
+321,"Hooker, Sara",37,pure_safety,4,4.0,0.0
+322,"Fadaee, Marzieh",37,pure_safety,4,4.0,0.0
+323,Yunfeng Zhang,37,mixed,7,6.0,4.0
+324,Katherine M. Collins,37,mixed,2,1.0,1.0
+325,Andy Zou,37,mixed,5,5.0,1.0
+326,"Tsvetkov, Yulia",36,mixed,11,7.0,10.0
+327,"Smith, Noah A.",36,mixed,7,4.0,4.0
+328,Atoosa Kasirzadeh,36,mixed,11,3.0,16.0
+329,Tom Stepleton,36,mixed,3,2.0,4.0
+330,Alexandra Sasha Luccioni,36,mixed,6,3.0,5.0
+331,Stanislav Fort,36,mixed,2,1.0,1.0
+332,"Wang, Hongru",35,mixed,6,6.0,2.0
+333,"Li, Haonan",35,mixed,3,3.0,1.0
+334,"Zhai, Zenan",35,mixed,2,2.0,1.0
+335,"Zhang, Zhenxuan",35,mixed,2,2.0,1.0
+336,"Lin, Shom",35,mixed,2,2.0,1.0
+337,"Ruder, Sebastian",35,pure_safety,4,4.0,0.0
+338,"Xi, Zhiheng",35,mixed,5,4.0,1.0
+339,"Gui, Tao",35,pure_safety,6,8.0,0.0
+340,"Wang, Qifan",35,mixed,6,6.0,2.0
+341,Stephen Casper,35,mixed,4,3.0,4.0
+342,Maribeth Rauh,35,mixed,3,2.0,4.0
+343,Lisa Anne Hendricks,35,mixed,3,2.0,4.0
+344,William Isaac,35,mixed,3,2.0,4.0
+345,Pang Wei Koh,35,pure_safety,4,6.0,0.0
+346,Jacob Steinhardt,35,mixed,11,17.0,3.0
+347,Esin Durmus,35,mixed,4,4.0,1.0
+348,Yaodong Yang,35,mixed,5,6.0,1.0
+349,Borja Balle,35,mixed,3,1.0,4.0
+350,"Yu, Tong",34,mixed,5,3.0,6.0
+351,"Chaudhury, Subhajit",34,mixed,3,3.0,1.0
+352,"Geng, Yilin",34,pure_ethics,1,0.0,1.0
+353,"Wang, Renxi",34,pure_ethics,1,0.0,1.0
+354,"Hong, Donghai",34,pure_ethics,1,0.0,1.0
+355,"Chen, Meng",34,pure_ethics,1,0.0,1.0
+356,"Tu, Haoqin",34,pure_ethics,1,0.0,1.0
+357,"Zeng, Cong",34,pure_ethics,1,0.0,1.0
+358,"Zhao, Bingchen",34,pure_ethics,1,0.0,1.0
+359,"Duan, Yawen",34,pure_ethics,1,0.0,1.0
+360,"Liu, Zhengzhong",34,pure_ethics,1,0.0,1.0
+361,"Ren, Hector Xuguang",34,pure_ethics,1,0.0,1.0
+362,"Attanasio, Giuseppe",34,mixed,11,5.0,12.0
+363,Marzyeh Ghassemi,34,mixed,11,5.0,9.0
+364,Verena Rieser,34,mixed,4,3.0,2.0
+365,Noam Kolt,34,mixed,3,2.0,3.0
+366,Yejin Choi,34,mixed,8,6.0,3.0
+367,Stella Biderman,34,mixed,3,2.0,2.0
+368,Aviya Skowron,34,mixed,2,1.0,1.0
+369,Liane Lovitt,34,pure_ethics,2,0.0,2.0
+370,Deep Ganguli,34,pure_ethics,2,0.0,2.0
+371,Lee Sharkey,34,mixed,4,6.0,3.0
+372,"Choshen, Leshem",33,mixed,4,4.0,1.0
+373,Haiyi Zhu,33,mixed,9,1.0,9.0
+374,Andrea Michi,33,pure_safety,2,2.0,0.0
+375,Nikola Momchev,33,pure_safety,2,2.0,0.0
+376,Kun Zhang,33,mixed,6,3.0,3.0
+377,"Talat, Zeerak",32,mixed,7,2.0,10.0
+378,"Limkonchotiwat, Peerat",32,mixed,3,3.0,2.0
+379,"N\'ev\'eol, Aur\'elie",32,mixed,5,1.0,5.0
+380,"Wang, William Yang",32,mixed,7,3.0,7.0
+381,"Yang, Diyi",32,mixed,10,8.0,5.0
+382,"Song, Yangqiu",32,mixed,8,4.0,4.0
+383,Alexander Robey,32,pure_safety,3,4.0,0.0
+384,Zhiwei Steven Wu,32,mixed,9,4.0,5.0
+385,Emily Denton,32,mixed,11,1.0,11.0
+386,Arvind Narayanan,32,mixed,6,1.0,6.0
+387,Shalaleh Rismani,32,mixed,4,1.0,3.0
+388,Negar Rostamzadeh,32,mixed,6,3.0,3.0
+389,Tatsunori Hashimoto,32,mixed,7,4.0,7.0
+390,Daniele Calandriello,32,pure_safety,3,5.0,0.0
+391,Michal Valko,32,pure_safety,3,5.0,0.0
+392,"Bosselut, Antoine",31,mixed,4,2.0,2.0
+393,"Hajishirzi, Hannaneh",31,mixed,5,4.0,1.0
+394,"Sheng, Emily",31,mixed,5,1.0,7.0
+395,"Williams, Adina",31,mixed,6,2.0,6.0
+396,Prateek Mittal,31,mixed,6,7.0,2.0
+397,Han Yu,31,mixed,6,4.0,6.0
+398,Aylin Caliskan,31,mixed,17,1.0,20.0
+399,Laura Weidinger,31,mixed,3,2.0,4.0
+400,Kimin Lee,31,pure_safety,4,4.0,0.0
+401,Conor Griffin,31,mixed,2,2.0,3.0
+402,Shiori Sagawa,31,pure_safety,3,5.0,0.0
+403,Yawen Duan,31,mixed,2,1.0,1.0
+404,Tianqi Liu,31,pure_safety,3,3.0,0.0
+405,Rishabh Joshi,31,pure_safety,3,3.0,0.0
+406,Myra Cheng,31,mixed,2,1.0,3.0
+407,Adrian de Wynter,31,pure_safety,1,1.0,0.0
+408,Ishaan Watts,31,pure_safety,1,1.0,0.0
+409,Tua Wongsangaroonsri,31,pure_safety,1,1.0,0.0
+410,Minghui Zhang,31,pure_safety,1,1.0,0.0
+411,Noura Farra,31,pure_safety,1,1.0,0.0
+412,Nektar Ege Altintoprak,31,pure_safety,1,1.0,0.0
+413,Lena Baur,31,pure_safety,1,1.0,0.0
+414,Samantha Claudet,31,pure_safety,1,1.0,0.0
+415,Pavel Gajdusek,31,pure_safety,1,1.0,0.0
+416,Qilong Gu,31,pure_safety,1,1.0,0.0
+417,Anna Kaminska,31,pure_safety,1,1.0,0.0
+418,Tomasz Kaminski,31,pure_safety,1,1.0,0.0
+419,Ruby Kuo,31,pure_safety,1,1.0,0.0
+420,Akiko Kyuba,31,pure_safety,1,1.0,0.0
+421,Jongho Lee,31,pure_safety,1,1.0,0.0
+422,Kartik Mathur,31,pure_safety,1,1.0,0.0
+423,Petter Merok,31,pure_safety,1,1.0,0.0
+424,Ivana Milovanovic,31,pure_safety,1,1.0,0.0
+425,Nani Paananen,31,pure_safety,1,1.0,0.0
+426,Vesa-Matti Paananen,31,pure_safety,1,1.0,0.0
+427,Anna Pavlenko,31,pure_safety,1,1.0,0.0
+428,Bruno Pereira Vidal,31,pure_safety,1,1.0,0.0
+429,Luciano Ivan Strika,31,pure_safety,1,1.0,0.0
+430,Yueh Tsao,31,pure_safety,1,1.0,0.0
+431,Davide Turcato,31,pure_safety,1,1.0,0.0
+432,Oleksandr Vakhno,31,pure_safety,1,1.0,0.0
+433,Judit Velcsov,31,pure_safety,1,1.0,0.0
+434,Anna Vickers,31,pure_safety,1,1.0,0.0
+435,Stéphanie F. Visser,31,pure_safety,1,1.0,0.0
+436,Herdyan Widarmanto,31,pure_safety,1,1.0,0.0
+437,Andrey Zaikin,31,pure_safety,1,1.0,0.0
+438,Si-Qing Chen,31,pure_safety,1,1.0,0.0
+439,"Xu, Ruifeng",30,mixed,5,3.0,2.0
+440,"Zhang, Ruiyi",30,mixed,4,3.0,4.0
+441,"Murugesan, Keerthiram",30,mixed,2,2.0,1.0
+442,"Rawat, Ambrish",30,mixed,3,2.0,2.0
+443,"Li, Haoran",30,mixed,6,4.0,2.0
+444,Daniel E. Ho,30,mixed,9,2.0,14.0
+445,Philip Torr,30,pure_safety,4,5.0,0.0
+446,Riccardo Fogliato,30,mixed,4,5.0,2.0
+447,Jatinder Singh,30,mixed,15,7.0,16.0
+448,Nitarshan Rajkumar,30,mixed,3,2.0,2.0
+449,Dennis Wei,30,mixed,6,6.0,4.0
+450,Carson Ezell,30,mixed,4,3.0,6.0
+451,Jun Wang,30,mixed,6,7.0,3.0
+452,Léonard Hussenot,30,pure_safety,3,3.0,0.0
+453,Geoffrey Cideron,30,pure_safety,3,3.0,0.0
+454,Johan Ferret,30,pure_safety,3,3.0,0.0
+455,Alessandro Abate,30,pure_safety,3,4.0,0.0
+456,"Li, Lei",29,mixed,6,7.0,1.0
+457,"Ippolito, Daphne",29,mixed,2,1.0,1.0
+458,"Wang, Hongning",29,mixed,5,5.0,1.0
+459,"Wang, Wei",29,mixed,4,5.0,2.0
+460,"Lin, Yong",29,pure_safety,4,7.0,0.0
+461,Zhangyang Wang,29,mixed,10,10.0,2.0
+462,Borhane Blili-Hamelin,29,mixed,4,2.0,3.0
+463,Kevin Wei,29,mixed,3,2.0,5.0
+464,Anca D. Dragan,29,pure_safety,7,8.0,0.0
+465,Emma Pierson,29,mixed,3,4.0,1.0
+466,Danqi Chen,29,mixed,5,5.0,3.0
+467,Doina Precup,29,pure_safety,3,3.0,0.0
+468,Sören Mindermann,29,mixed,3,4.0,1.0
+469,Danny Hernandez,29,pure_ethics,1,0.0,1.0
+470,Yuntao Bai,29,pure_ethics,1,0.0,1.0
+471,Anna Chen,29,pure_ethics,1,0.0,1.0
+472,Tom Conerly,29,pure_ethics,1,0.0,1.0
+473,Nova DasSarma,29,pure_ethics,1,0.0,1.0
+474,Dawn Drain,29,pure_ethics,1,0.0,1.0
+475,Nelson Elhage,29,pure_ethics,1,0.0,1.0
+476,Sheer El Showk,29,pure_ethics,1,0.0,1.0
+477,Tom Henighan,29,pure_ethics,1,0.0,1.0
+478,Scott Johnston,29,pure_ethics,1,0.0,1.0
+479,Andy Jones,29,pure_ethics,1,0.0,1.0
+480,Nicholas Joseph,29,pure_ethics,1,0.0,1.0
+481,Jackson Kernian,29,pure_ethics,1,0.0,1.0
+482,Ben Mann,29,pure_ethics,1,0.0,1.0
+483,Catherine Olsson,29,pure_ethics,1,0.0,1.0
+484,Daniela Amodei,29,pure_ethics,1,0.0,1.0
+485,Tom B. Brown,29,pure_ethics,1,0.0,1.0
+486,Jared Kaplan,29,pure_ethics,1,0.0,1.0
+487,Christopher Olah,29,pure_ethics,1,0.0,1.0
+488,Dario Amodei,29,pure_ethics,1,0.0,1.0
+489,Jack Clark,29,pure_ethics,1,0.0,1.0
+490,"Zhang, Hao",28,pure_safety,4,6.0,0.0
+491,"Cao, Yixin",28,mixed,5,2.0,4.0
+492,"Cheng, Jiale",28,mixed,3,3.0,1.0
+493,"Lin, Dahua",28,mixed,4,3.0,2.0
+494,Dylan Hadfield-Menell,28,mixed,6,3.0,5.0
+495,Michael A. Katell,28,mixed,6,2.0,12.0
+496,Wei Guo,28,mixed,3,3.0,3.0
+497,Yushi Hu,28,pure_safety,2,2.0,0.0
+498,Satyapriya Krishna,28,mixed,4,1.0,5.0
+499,Amit Dhurandhar,28,mixed,5,4.0,5.0
+500,Matthieu Geist,28,pure_safety,2,2.0,0.0
+501,Po-Sen Huang,28,mixed,2,1.0,3.0
+502,Yang Gao,28,pure_safety,3,3.0,0.0
+503,Jie Ren,28,pure_safety,3,4.0,0.0
+504,Kun Qian,28,mixed,2,2.0,3.0
+505,"Gu, Jiuxiang",27,mixed,3,2.0,3.0
+506,"Burchardt, Aljoscha",27,mixed,4,1.0,5.0
+507,"M\""oller, Sebastian",27,mixed,6,5.0,5.0
+508,"Li, Bo",27,mixed,5,5.0,1.0
+509,"Neubig, Graham",27,mixed,7,4.0,3.0
+510,"Ng, Raymond",27,pure_safety,2,2.0,0.0
+511,"Zhao, Han",27,mixed,5,7.0,1.0
+512,"Ke, Pei",27,mixed,3,3.0,1.0
+513,Somesh Jha,27,mixed,7,8.0,1.0
+514,Himabindu Lakkaraju,27,mixed,10,4.0,7.0
+515,Ben Hutchinson,27,mixed,7,2.0,5.0
+516,Moninder Singh,27,mixed,3,3.0,1.0
+517,Vincent Conitzer,27,mixed,6,3.0,3.0
+518,Jan Leike,27,pure_safety,4,6.0,0.0
+519,Tomasz Korbak,27,mixed,4,4.0,1.0
+520,Alexandre Ramé,27,pure_safety,4,4.0,0.0
+521,Xianjun Yang,27,mixed,2,2.0,1.0
+522,Thomas Mesnard,27,pure_safety,2,2.0,0.0
+523,Allison Koenecke,27,mixed,6,3.0,5.0
+524,Max Tegmark,27,mixed,2,1.0,2.0
+525,Saad Siddiqui,27,mixed,2,2.0,3.0
+526,Mrinank Sharma,27,pure_safety,2,4.0,0.0
+527,"Brahman, Faeze",26,mixed,4,4.0,1.0
+528,"He, Yulan",26,mixed,6,5.0,3.0
+529,"Qin, Bing",26,mixed,6,4.0,4.0
+530,"Dou, Shihan",26,mixed,4,4.0,1.0
+531,"Ermis, Beyza",26,pure_safety,2,2.0,0.0
+532,"Tang, Jie",26,mixed,3,3.0,1.0
+533,"Goldfarb-Tarrant, Seraphina",26,mixed,7,1.0,10.0
+534,"Sun, Lichao",26,mixed,3,3.0,2.0
+535,"Koh, Pang Wei",26,pure_ethics,2,0.0,2.0
+536,Patrick Chao,26,pure_safety,2,3.0,0.0
+537,Shubham Sharma,26,mixed,7,3.0,6.0
+538,Timnit Gebru,26,pure_ethics,6,0.0,6.0
+539,Leo Anthony Celi,26,pure_ethics,3,0.0,3.0
+540,Lauren Wilcox,26,pure_ethics,5,0.0,7.0
+541,Lei Ma,26,mixed,6,6.0,1.0
+542,Diyi Yang,26,mixed,2,1.0,2.0
+543,Daniel Kang,26,mixed,2,1.0,2.0
+544,Motahhare Eslami,26,pure_ethics,6,0.0,7.0
+545,Micah Carroll,26,mixed,2,1.0,1.0
+546,Tegan Maharaj,26,pure_ethics,2,0.0,2.0
+547,Jitendra Malik,26,mixed,2,2.0,1.0
+548,"Xu, Wei",25,mixed,7,5.0,4.0
+549,"Liu, Qi",25,mixed,5,7.0,1.0
+550,"Nagireddy, Manish",25,mixed,3,3.0,2.0
+551,"Zizzo, Giulio",25,mixed,2,1.0,2.0
+552,"Kumar, Sachin",25,mixed,4,2.0,3.0
+553,"Wang, Pengyu",25,pure_safety,3,4.0,0.0
+554,"Zhou, Yuhang",25,mixed,3,2.0,1.0
+555,"Ren, Jie",25,pure_ethics,4,0.0,4.0
+556,"Yang, Chao",25,pure_safety,3,4.0,0.0
+557,"Yang, Min",25,mixed,3,1.0,2.0
+558,"Zhang, Zhexin",25,pure_safety,5,5.0,0.0
+559,"Negri, Matteo",25,mixed,12,3.0,11.0
+560,"S\ogaard, Anders",25,mixed,9,5.0,4.0
+561,"Yao, Yuan",25,mixed,2,1.0,1.0
+562,"Lauscher, Anne",25,mixed,11,1.0,17.0
+563,Jamie Morgenstern,25,mixed,7,1.0,7.0
+564,Krishnaram Kenthapadi,25,mixed,7,2.0,7.0
+565,Bernease Herman,25,pure_ethics,4,0.0,7.0
+566,Orestis Papakyriakopoulos,25,mixed,7,1.0,8.0
+567,Najoung Kim,25,pure_safety,2,3.0,0.0
+568,Deepak Ramachandran,25,pure_safety,2,2.0,0.0
+569,Yacine Jernite,25,pure_ethics,4,0.0,5.0
+570,Sanmi Koyejo,25,mixed,4,4.0,1.0
+571,Pietro Barbiero,25,mixed,6,9.0,2.0
+572,Lichang Chen,25,pure_safety,2,3.0,0.0
+573,David Bau,25,mixed,2,1.0,2.0
+574,Nouha Dziri,25,pure_safety,3,3.0,0.0
+575,"Swayamdipta, Swabha",24,mixed,6,4.0,2.0
+576,"Nozza, Debora",24,mixed,11,3.0,14.0
+577,"Xiao, Chaowei",24,mixed,6,7.0,1.0
+578,"Kuang, Kun",24,pure_safety,5,5.0,0.0
+579,"Liu, Hui",24,mixed,6,4.0,6.0
+580,"Shao, Jing",24,mixed,5,7.0,1.0
+581,"Hu, Wenbin",24,mixed,2,1.0,1.0
+582,"Hovy, Dirk",24,mixed,13,5.0,12.0
+583,"Zhang, Jing",24,mixed,2,2.0,1.0
+584,"Rei, Ricardo",24,mixed,3,2.0,2.0
+585,"Zettlemoyer, Luke",24,pure_ethics,3,0.0,3.0
+586,Jie Zhang,24,mixed,8,8.0,1.0
+587,Nicolas Papernot,24,mixed,7,3.0,4.0
+588,Alex Hanna,24,pure_ethics,7,0.0,7.0
+589,Meg Young,24,pure_ethics,7,0.0,10.0
+590,Yue Wu,24,mixed,4,2.0,2.0
+591,Jie Yang,24,mixed,5,4.0,3.0
+592,Mateja Jamnik,24,mixed,5,4.0,2.0
+593,Robert Trager,24,pure_safety,2,3.0,0.0
+594,Maryam Molamohammadi,24,pure_ethics,2,0.0,2.0
+595,Soheil Feizi,24,mixed,11,9.0,4.0
+596,Yixuan Li,24,pure_safety,12,13.0,0.0
+597,Mantas Mazeika,24,mixed,4,3.0,1.0
+598,Joseph E. Gonzalez,24,pure_safety,4,4.0,0.0
+599,Suhas Kotha,24,pure_safety,2,2.0,0.0
+600,Shihan Dou,24,pure_safety,3,3.0,0.0
+601,Rui Zheng,24,pure_safety,3,3.0,0.0
+602,Rémi Munos,24,pure_safety,2,2.0,0.0
+603,Mark Rowland,24,pure_safety,2,2.0,0.0
+604,Yunhao Tang,24,pure_safety,2,2.0,0.0
+605,Geoffrey Irving,24,mixed,2,1.0,3.0
+606,Will Hawkins,24,mixed,3,1.0,4.0
+607,Qi Liu,24,mixed,5,7.0,1.0
+608,Zhenguo Li,24,mixed,4,4.0,2.0
+609,Jeremiah Zhe Liu,24,pure_safety,2,2.0,0.0
+610,Mohammad Saleh,24,pure_safety,3,3.0,0.0
+611,"Cheng, Xueqi",23,mixed,5,3.0,3.0
+612,"Liang, Bin",23,mixed,4,2.0,2.0
+613,"Miehling, Erik",23,mixed,2,2.0,2.0
+614,"Daly, Elizabeth M.",23,mixed,2,2.0,2.0
+615,"Sattigeri, Prasanna",23,mixed,2,2.0,2.0
+616,"Zerva, Chrysoula",23,mixed,3,1.0,3.0
+617,"Zhang, Zhuo",23,mixed,4,1.0,3.0
+618,"Wang, Wenjie",23,mixed,6,7.0,1.0
+619,"Chen, Feng",23,mixed,3,2.0,5.0
+620,"Xiong, Deyi",23,mixed,7,7.0,1.0
+621,"Xiong, Wei",23,pure_safety,4,7.0,0.0
+622,"Prabhakaran, Vinodkumar",23,mixed,7,5.0,6.0
+623,"Liu, Xiao",23,mixed,2,2.0,1.0
+624,"Lei, Xuanyu",23,mixed,2,2.0,1.0
+625,Hanna M. Wallach,23,mixed,6,1.0,7.0
+626,Yu Yang,23,mixed,3,1.0,3.0
+627,Herbie Bradley,23,mixed,3,2.0,2.0
+628,Golnoosh Farnadi,23,mixed,7,4.0,8.0
+629,Irena Gao,23,pure_safety,2,4.0,0.0
+630,Steven Basart,23,mixed,4,3.0,2.0
+631,Hailey Schoelkopf,23,mixed,2,1.0,1.0
+632,Benjamin Bucknall,23,pure_ethics,2,0.0,3.0
+633,Ilya Sutskever,23,pure_safety,3,5.0,0.0
+634,Tinghao Xie,23,mixed,4,5.0,2.0
+635,Karthikeyan Shanmugam,23,pure_safety,3,4.0,0.0
+636,Jina Suh,23,mixed,3,5.0,2.0
+637,Silas Alberti,23,pure_ethics,2,0.0,3.0
+638,Hao Wang,23,mixed,4,4.0,2.0
+639,Andy Zhou,23,mixed,2,2.0,1.0
+640,"\Ovrelid, Lilja",22,mixed,3,1.0,2.0
+641,"Groh, Georg",22,mixed,10,7.0,6.0
+642,"Wang, Hui",22,mixed,3,1.0,2.0
+643,"Kim, Sungchul",22,mixed,3,1.0,5.0
+644,"Costa-juss\`a, Marta R.",22,mixed,7,1.0,7.0
+645,"Sun, Le",22,mixed,5,1.0,4.0
+646,"Xu, Rongwu",22,mixed,5,5.0,2.0
+647,"Xing, Yue",22,mixed,5,2.0,3.0
+648,"Han, Sirui",22,mixed,3,2.0,1.0
+649,"Wang, Jingtan",22,pure_ethics,2,0.0,2.0
+650,"Dai, Zhongxiang",22,pure_ethics,2,0.0,2.0
+651,"Low, Bryan Kian Hsiang",22,pure_ethics,3,0.0,4.0
+652,"Zhao, Jun",22,pure_safety,4,4.0,0.0
+653,"Singh, Shivalika",22,pure_safety,1,1.0,0.0
+654,"Romanou, Angelika",22,pure_safety,1,1.0,0.0
+655,"Fourrier, Cl\'ementine",22,pure_safety,1,1.0,0.0
+656,"Adelani, David Ifeoluwa",22,pure_safety,1,1.0,0.0
+657,"Ngui, Jian Gang",22,pure_safety,1,1.0,0.0
+658,"Vila-Suero, Daniel",22,pure_safety,1,1.0,0.0
+659,"Marchisio, Kelly",22,pure_safety,1,1.0,0.0
+660,"Leong, Wei Qi",22,pure_safety,1,1.0,0.0
+661,"Susanto, Yosephine",22,pure_safety,1,1.0,0.0
+662,"Ko, Wei-Yin",22,pure_safety,1,1.0,0.0
+663,"Ferrante, Enzo",22,pure_safety,1,1.0,0.0
+664,"Galstyan, Aram",22,mixed,6,3.0,5.0
+665,"Diaz, Mark",22,mixed,5,4.0,3.0
+666,"Diao, Shizhe",22,pure_safety,3,3.0,0.0
+667,"Wang, Haoxiang",22,pure_safety,4,7.0,0.0
+668,"Qiao, Rui",22,pure_ethics,2,0.0,2.0
+669,"Dev, Sunipa",22,mixed,5,2.0,5.0
+670,"Biderman, Stella",22,mixed,2,1.0,2.0
+671,"Luccioni, Sasha",22,pure_ethics,2,0.0,3.0
+672,Reza Shokri,22,mixed,9,2.0,9.0
+673,Sameer Singh,22,mixed,3,1.0,2.0
+674,Mateo Espinosa Zarlenga,22,mixed,4,4.0,1.0
+675,Krishnamurthy Dj Dvijotham,22,pure_safety,2,2.0,0.0
+676,Erin van Liemt,22,mixed,3,3.0,1.0
+677,Yang Zhang,22,mixed,5,3.0,2.0
+678,Chandra Bhagavatula,22,mixed,4,3.0,1.0
+679,Ludwig Schmidt,22,mixed,3,1.0,2.0
+680,Henrik Marklund,22,pure_safety,1,3.0,0.0
+681,Sang Michael Xie,22,pure_safety,1,3.0,0.0
+682,Marvin Zhang,22,pure_safety,1,3.0,0.0
+683,Akshay Balsubramani,22,pure_safety,1,3.0,0.0
+684,Weihua Hu,22,pure_safety,1,3.0,0.0
+685,Michihiro Yasunaga,22,pure_safety,1,3.0,0.0
+686,Richard Lanas Phillips,22,pure_safety,1,3.0,0.0
+687,Tony Lee,22,pure_safety,1,3.0,0.0
+688,Etienne David,22,pure_safety,1,3.0,0.0
+689,Ian Stavness,22,pure_safety,1,3.0,0.0
+690,Berton Earnshaw,22,pure_safety,1,3.0,0.0
+691,Imran S. Haque,22,pure_safety,1,3.0,0.0
+692,Sara M. Beery,22,pure_safety,1,3.0,0.0
+693,Jure Leskovec,22,pure_safety,1,3.0,0.0
+694,Anshul Kundaje,22,pure_safety,1,3.0,0.0
+695,Song-Chun Zhu,22,pure_safety,2,2.0,0.0
+696,Samuel R. Bowman,22,pure_safety,2,3.0,0.0
+697,Zhen Qin,22,mixed,2,1.0,1.0
+698,Ashwin Ramaswami,22,pure_safety,1,1.0,0.0
+699,Zheng Xin Yong,22,pure_safety,1,1.0,0.0
+700,Weiyan Shi,22,pure_safety,2,2.0,0.0
+701,Reid Southen,22,pure_safety,1,1.0,0.0
+702,Sandy Pentland,22,pure_safety,1,1.0,0.0
+703,Wei Shen,22,pure_safety,3,3.0,0.0
+704,Daniel J. Mankowitz,22,pure_safety,2,2.0,0.0
+705,Tianyu Pang,22,mixed,6,6.0,4.0
+706,Chao Du,22,mixed,6,6.0,4.0
+707,Min Lin,22,mixed,6,6.0,4.0
+708,Jonathan Uesato,22,pure_ethics,1,0.0,3.0
+709,John Mellor,22,pure_ethics,1,0.0,3.0
+710,Amelia Glaese,22,pure_ethics,1,0.0,3.0
+711,Courtney Biles,22,pure_ethics,1,0.0,3.0
+712,Sasha Brown,22,pure_ethics,1,0.0,3.0
+713,Zac Kenton,22,pure_ethics,1,0.0,3.0
+714,Laura Rimell,22,pure_ethics,1,0.0,3.0
+715,Julia Haas,22,pure_ethics,1,0.0,3.0
+716,Sean Legassick,22,pure_ethics,1,0.0,3.0
+717,Suresh Balu,22,mixed,2,2.0,2.0
+718,Mark P. Sendak,22,mixed,2,2.0,2.0
+719,John Burden,22,mixed,2,1.0,1.0
+720,Zhaowei Zhang,22,pure_safety,2,2.0,0.0
+721,Min Yang,22,mixed,3,2.0,1.0
+722,Aviral Kumar,22,pure_safety,2,2.0,0.0
+723,Weijia Shi,22,mixed,4,1.0,4.0
+724,Xavier Puig,22,mixed,1,1.0,1.0
+725,Eric Undersander,22,mixed,1,1.0,1.0
+726,Andrew Szot,22,mixed,1,1.0,1.0
+727,Mikael Dallaire Cote,22,mixed,1,1.0,1.0
+728,Tsung-Yen Yang,22,mixed,1,1.0,1.0
+729,Ruslan Partsey,22,mixed,1,1.0,1.0
+730,Ruta Desai,22,mixed,1,1.0,1.0
+731,Alexander Clegg,22,mixed,1,1.0,1.0
+732,Michal Hlavac,22,mixed,1,1.0,1.0
+733,So Yeon Min,22,mixed,1,1.0,1.0
+734,Vladimir Vondrus,22,mixed,1,1.0,1.0
+735,Théophile Gervet,22,mixed,1,1.0,1.0
+736,Vincent-Pierre Berges,22,mixed,1,1.0,1.0
+737,John M. Turner,22,mixed,1,1.0,1.0
+738,Oleksandr Maksymets,22,mixed,1,1.0,1.0
+739,Zsolt Kira,22,mixed,1,1.0,1.0
+740,Mrinal Kalakrishnan,22,mixed,1,1.0,1.0
+741,Devendra Singh Chaplot,22,mixed,1,1.0,1.0
+742,Unnat Jain,22,mixed,1,1.0,1.0
+743,Dhruv Batra,22,mixed,1,1.0,1.0
+744,Akshara Rai,22,mixed,1,1.0,1.0
+745,Roozbeh Mottaghi,22,mixed,1,1.0,1.0
+746,Maxwell Lin,22,pure_safety,2,2.0,0.0
+747,Justin Wang,22,pure_safety,2,2.0,0.0
+748,"Padhi, Inkit",21,mixed,1,1.0,1.0
+749,"Cornacchia, Giandomenico",21,mixed,1,1.0,1.0
+750,"Pedapati, Tejaswini",21,mixed,1,1.0,1.0
+751,"Dognin, Pierre",21,mixed,1,1.0,1.0
+752,"Santill\'an Cooper, Mart\'in",21,mixed,1,1.0,1.0
+753,"Fraser, Kieran",21,mixed,1,1.0,1.0
+754,"Hameed, Muhammad Zaid",21,mixed,1,1.0,1.0
+755,"Purcell, Mark",21,mixed,1,1.0,1.0
+756,"Desmond, Michael",21,mixed,1,1.0,1.0
+757,"Pan, Qian",21,mixed,1,1.0,1.0
+758,"Vejsbjerg, Inge",21,mixed,1,1.0,1.0
+759,"Hind, Michael",21,mixed,1,1.0,1.0
+760,"Geyer, Werner",21,mixed,1,1.0,1.0
+761,"Varshney, Kush R.",21,mixed,1,1.0,1.0
+762,"Shang, Lifeng",21,pure_safety,3,3.0,0.0
+763,"Jin, Zhijing",21,mixed,7,4.0,8.0
+764,"Wu, Junda",21,mixed,3,2.0,2.0
+765,"Lin, Hongyu",21,mixed,4,1.0,3.0
+766,"Han, Xianpei",21,mixed,4,1.0,3.0
+767,"Kanojia, Diptesh",21,mixed,3,3.0,1.0
+768,"He, He",21,mixed,6,4.0,2.0
+769,"Lee, Hwaran",21,mixed,4,3.0,3.0
+770,"Kirchhoff, Katrin",21,pure_safety,2,4.0,0.0
+771,"Wang, Cunxiang",21,mixed,3,2.0,2.0
+772,"Gu, Xiaotao",21,mixed,2,2.0,1.0
+773,"Dong, Yuxiao",21,mixed,2,2.0,1.0
+774,"Zhao, Handong",21,mixed,3,3.0,2.0
+775,"Liu, Zhiyuan",21,pure_safety,3,3.0,0.0
+776,"Klein, Dan",21,mixed,6,2.0,4.0
+777,"Morency, Louis-Philippe",21,mixed,6,4.0,4.0
+778,Julia Stoyanovich,21,mixed,6,3.0,5.0
+779,Micah Goldblum,21,mixed,6,4.0,2.0
+780,Sahil Singla,21,mixed,2,1.0,1.0
+781,Jianye Hao,21,pure_safety,3,3.0,0.0
+782,Ying Nian Wu,21,pure_safety,3,4.0,0.0
+783,Bo Han,21,mixed,5,5.0,1.0
+784,Souradip Chakraborty,21,mixed,4,4.0,1.0
+785,Long Phan,21,pure_safety,2,2.0,0.0
+786,John T. Richards,21,mixed,4,3.0,4.0
+787,Hong Shen,21,pure_ethics,4,0.0,4.0
+788,Rediet Abebe,21,pure_ethics,6,0.0,6.0
+789,Harini Suresh,21,mixed,5,2.0,3.0
+790,Rebecca Salganik,21,pure_ethics,1,0.0,1.0
+791,Alva Markelius,21,pure_ethics,1,0.0,1.0
+792,Chris Pang,21,pure_ethics,1,0.0,1.0
+793,Dmitrii Krasheninnikov,21,pure_ethics,1,0.0,1.0
+794,Lauro Langosco,21,pure_ethics,1,0.0,1.0
+795,Zhonghao He,21,pure_ethics,1,0.0,1.0
+796,Michelle P. Lin,21,pure_ethics,1,0.0,1.0
+797,Alex Mayhew,21,pure_ethics,1,0.0,1.0
+798,Wanru Zhao,21,pure_ethics,1,0.0,1.0
+799,Konstantinos Voudouris,21,pure_ethics,1,0.0,1.0
+800,Yoshua Bengio,21,pure_safety,3,4.0,0.0
+801,Lijie Hu,21,mixed,4,4.0,1.0
+802,Yi Yang,21,mixed,6,2.0,7.0
+803,Trevor Darrell,21,mixed,3,2.0,2.0
+804,"Gui, Lin",20,mixed,4,4.0,2.0
+805,"Zhou, Xuhui",20,mixed,5,3.0,2.0
+806,"Lambert, Nathan",20,pure_safety,2,2.0,0.0
+807,"Du, Mengnan",20,mixed,5,4.0,4.0
+808,"Liu, Ting",20,mixed,5,4.0,3.0
+809,"Blodgett, Su Lin",20,pure_ethics,5,0.0,6.0
+810,"Tang, Ruixiang",20,mixed,3,2.0,1.0
+811,"Parrish, Alicia",20,mixed,4,4.0,1.0
+812,"Zhang, Hanning",20,pure_safety,2,2.0,0.0
+813,"Zhang, Yating",20,mixed,3,2.0,1.0
+814,"Xu, Zenglin",20,mixed,4,1.0,3.0
+815,"Tang, Jiliang",20,mixed,6,1.0,6.0
+816,"Rieser, Verena",20,mixed,4,1.0,3.0
+817,"Sun, Tong",20,pure_safety,3,3.0,0.0
+818,"Salakhutdinov, Ruslan",20,mixed,5,3.0,4.0
+819,"Sen, Prithviraj",20,pure_safety,3,3.0,0.0
+820,"Tan, Samson",20,mixed,2,1.0,3.0
+821,Amanda Coston,20,mixed,7,4.0,4.0
+822,Varun Chandrasekaran,20,pure_safety,4,5.0,0.0
+823,Markus Anderljung,20,mixed,3,2.0,2.0
+824,Deirdre K. Mulligan,20,mixed,3,1.0,3.0
+825,Rumi Chunara,20,mixed,6,2.0,7.0
+826,Arianna Manzini,20,mixed,4,2.0,3.0
+827,Suresh Venkatasubramanian,20,mixed,9,4.0,7.0
+828,Severin Engelmann,20,pure_ethics,6,0.0,6.0
+829,Ruslan Salakhutdinov,20,mixed,5,2.0,3.0
+830,Yixuan Wang,20,mixed,3,2.0,1.0
+831,Nino Vieillard,20,pure_safety,2,2.0,0.0
+832,Zihao Wang,20,pure_safety,2,2.0,0.0
+833,Lucas Dixon,20,mixed,4,6.0,1.0
+834,Cho-Jui Hsieh,20,mixed,6,7.0,1.0
+835,Katherine A. Heller,20,mixed,3,1.0,2.0
+836,Kenneth Holstein,20,mixed,6,1.0,5.0
+837,Charlotte Siegmann,20,pure_ethics,1,0.0,2.0
+838,Taylor Lynn Curtis,20,pure_ethics,1,0.0,2.0
+839,Andreas A. Haupt,20,pure_ethics,1,0.0,2.0
+840,Jérémy Scheurer,20,pure_ethics,1,0.0,2.0
+841,Marius Hobbhahn,20,pure_ethics,1,0.0,2.0
+842,Marvin Von Hagen,20,pure_ethics,1,0.0,2.0
+843,Qinyi Sun,20,pure_ethics,1,0.0,2.0
+844,Michael Gerovitch,20,pure_ethics,1,0.0,2.0
+845,Ben Bucknall,20,pure_safety,1,2.0,0.0
+846,Lara Thurnherr,20,pure_safety,1,2.0,0.0
+847,Conor McGurk,20,pure_safety,1,2.0,0.0
+848,Ben Harack,20,pure_safety,1,2.0,0.0
+849,Patricia Paskov,20,pure_safety,1,2.0,0.0
+850,Casey Mahoney,20,pure_safety,1,2.0,0.0
+851,Scott Singer,20,pure_safety,1,2.0,0.0
+852,Vinay Hiremath,20,pure_safety,1,2.0,0.0
+853,Charbel-Raphaël Ségerie,20,pure_safety,1,2.0,0.0
+854,Oscar Delaney,20,pure_safety,1,2.0,0.0
+855,Fazl Barez,20,pure_safety,1,2.0,0.0
+856,Michael K. Cohen,20,pure_safety,1,2.0,0.0
+857,Ferenc Huszár,20,pure_safety,1,2.0,0.0
+858,Anisoara Calinescu,20,pure_safety,1,2.0,0.0
+859,Gabriel Davis Jones,20,pure_safety,1,2.0,0.0
+860,Junchi Yan,20,mixed,3,3.0,2.0
+861,Lei Zhang,20,pure_safety,3,3.0,0.0
+862,Hannaneh Hajishirzi,20,mixed,3,2.0,2.0
+863,Andy K. Zhang,20,pure_safety,1,1.0,0.0
+864,Neil Perry,20,pure_safety,1,1.0,0.0
+865,Riya Dulepet,20,pure_safety,1,1.0,0.0
+866,Joey Ji,20,pure_safety,1,1.0,0.0
+867,Celeste Menders,20,pure_safety,1,1.0,0.0
+868,Justin W. Lin,20,pure_safety,1,1.0,0.0
+869,Eliot Jones,20,pure_safety,1,1.0,0.0
+870,Gashon Hussein,20,pure_safety,1,1.0,0.0
+871,Samantha Liu,20,pure_safety,1,1.0,0.0
+872,Donovan Julian Jasper,20,pure_safety,1,1.0,0.0
+873,Pura Peetathawatchai,20,pure_safety,1,1.0,0.0
+874,Ari Glenn,20,pure_safety,1,1.0,0.0

@@ -1,0 +1,250 @@
+node,betweenness,degree,label,title
+3075,0.028119150647172877,40,pure_safety,Position: TrustLLM: Trustworthiness in Large Language Models.
+3485,0.019400575025809014,39,pure_safety,Easily Accessible Text-to-Image Generation Amplifies Demographic Stereotypes at Large Scale.
+3353,0.010972042773416766,28,pure_ethics,Taxonomy of Risks posed by Language Models.
+3059,0.008153470888127047,31,pure_safety,Position: A Safe Harbor for AI Evaluation and Red Teaming.
+1699,0.006869513508854246,27,pure_safety,On Measures of Biases and Harms in NLP
+4933,0.006342095684464568,25,pure_ethics,Unified Detoxifying and Debiasing in Language Generation via Inference-time Adaptive Optimization.
+535,0.0057757403145333435,23,pure_safety,Mind the Gesture: Evaluating AI Sensitivity to Culturally Offensive Non-Verbal Gestures
+5289,0.005573459680104382,34,pure_ethics,SORRY-Bench: Systematically Evaluating Large Language Model Safety Refusal.
+4937,0.0054374543715452715,12,pure_ethics,Confidential-PROFITT: Confidential PROof of FaIr Training of Trees.
+3017,0.005282194683855918,4,pure_safety,Understand and Modularize Generator Optimization in ELECTRA-style Pretraining.
+2932,0.0052547795462737305,16,pure_safety,Mitigating Neural Network Overconfidence with Logit Normalization.
+3066,0.005133800750906985,11,pure_safety,ODIN: Disentangled Reward Mitigates Hacking in RLHF.
+1017,0.004709092379177834,12,pure_safety,Synchronous Faithfulness Monitoring for Trustworthy Retrieval-Augmented Generation
+2206,0.004664358848545972,17,pure_safety,Position: Membership Inference Attacks Cannot Prove That a Model was Trained on Your Data.
+3432,0.00454314887842427,29,pure_ethics,Imagining new futures beyond predictive systems in child welfare: A qualitative study with impacted stakeholders.
+346,0.004473025175187113,20,pure_ethics,Stereotype or Personalization? User Identity Biases Chatbot Recommendations
+2611,0.004407053335993801,11,pure_safety,Beyond Thumbs Up/Down: Untangling Challenges of Fine-Grained Feedback for Text-to-Image Generation.
+3348,0.0041601500567659214,11,pure_ethics,The Values Encoded in Machine Learning Research.
+4997,0.004105021017807018,15,pure_ethics,FIFA: Making Fairness More Generalizable in Classifiers Trained on Imbalanced Data.
+2223,0.0040991579040933175,11,pure_safety,Verifiable and Provably Secure Machine Unlearning.
+226,0.004055590141561597,22,pure_safety,Vulnerability of Large Language Models to Output Prefix Jailbreaks: Impact of Positions on Safety
+592,0.003948583849861429,25,pure_ethics,Findings of the Quality Estimation Shared Task at WMT 2024: Are LLMs Closing the Gap in QE?
+5295,0.0039120546795402495,9,pure_ethics,DiSK: Differentially Private Optimizer with Simplified Kalman Filter for Noise Reduction.
+3416,0.003905633957239415,29,pure_ethics,Exploring How Machine Learning Practitioners (Try To) Use Fairness Toolkits.
+5067,0.0038553600649753523,26,pure_ethics,Procedural Fairness Through Decoupling Objectionable Data Generating Components.
+3822,0.00379081015719468,9,pure_ethics,SHAP-based Explanations are Sensitive to Feature Representation.
+3404,0.0037114762525275948,21,pure_ethics,Data Governance in the Age of Large-Scale Data-Driven Language Technology.
+4313,0.003646458704477882,15,pure_ethics,Arbitrariness and Social Prediction: The Confounding Role of Variance in Fair Classification.
+3447,0.003556096011878178,14,pure_ethics,What Does it Mean for a Language Model to Preserve Privacy?
+3940,0.003545974647466732,20,pure_ethics,The Fall of an Algorithm: Characterizing the Dynamics Toward Abandonment.
+2560,0.003542142450328836,13,pure_ethics,Self-Destructing Models: Increasing the Costs of Harmful Dual Uses of Foundation Models.
+3084,0.003508665860540103,3,pure_ethics,Latent Logic Tree Extraction for Event Sequence Explanation from LLMs.
+4171,0.0032718465771686806,7,pure_safety,Predictive Multiplicity in Probabilistic Classification.
+3664,0.003262100682604628,20,pure_ethics,Black-Box Access is Insufficient for Rigorous AI Audits.
+2870,0.00316774191148796,11,pure_safety,WILDS: A Benchmark of in-the-Wild Distribution Shifts.
+2730,0.0031670317938184986,19,pure_ethics,Artificial Artificial Intelligence: Measuring Influence of AI 'Assessments' on Moral Decision-Making.
+2327,0.0031618419083195596,27,pure_safety,On the Validity of Arrest as a Proxy for Offense: Race and the Likelihood of Arrest for Violent Crimes.
+3970,0.003160039187932152,17,pure_ethics,"Legacy Procurement Practices Shape How U.S. Cities Govern AI: Understanding Government Employees' Practices, Challenges, and Needs."
+1692,0.0031468187687152746,20,pure_ethics,FedNLP: Benchmarking Federated Learning Methods for Natural Language Processing Tasks
+1524,0.0031280956263078255,9,pure_safety,Efficient Shapley Values Estimation by Amortization for Text Classification
+4357,0.003048409448927662,5,pure_safety,ViTree: Single-Path Neural Tree for Step-Wise Interpretable Fine-Grained Visual Categorization.
+3961,0.003023954520064436,20,pure_ethics,Laboratory-Scale AI: Open-Weight Models are Competitive with ChatGPT Even in Low-Resource Settings.
+5060,0.0029656907725044944,8,pure_safety,KITAB: Evaluating LLMs on Constraint Satisfaction for Information Retrieval.
+4836,0.0028746551674050953,18,pure_ethics,Aligning AI With Shared Human Values.
+5049,0.002844383763001257,5,pure_safety,Privately Aligning Language Models with Reinforcement Learning.
+1341,0.00284404813057203,16,pure_ethics,"``Kelly is a Warm Person, Joseph is a Role Model'': Gender Biases in LLM-Generated Reference Letters"
+5124,0.002818839822995822,16,pure_safety,Can LLMs Keep a Secret? Testing Privacy Implications of Language Models via Contextual Integrity Theory.
+1012,0.0028184020663121314,17,pure_ethics,Knowledge Conflicts for LLMs: A Survey
+5054,0.0027966667825127926,8,pure_ethics,FFB: A Fair Fairness Benchmark for In-Processing Group Fairness Methods.
+249,0.0027650568780031317,13,pure_ethics,Rejected Dialects: Biases Against African American Language in Reward Models
+2814,0.0027572501441662676,16,pure_safety,Is There a Trade-Off Between Fairness and Accuracy? A Perspective Using Mismatched Hypothesis Testing.
+5081,0.002754495124663467,9,pure_safety,Prediction without Preclusion: Recourse Verification with Reachable Sets.
+2866,0.0027481649869912504,9,pure_ethics,Information Obfuscation of Graph Neural Networks.
+5146,0.0027468311484912834,9,pure_ethics,What's In My Big Data?
+3564,0.002731580005747314,15,pure_ethics,Harms from Increasingly Agentic Algorithmic Systems.
+3068,0.0027260685646914706,8,pure_ethics,Trustless Audits without Revealing Data or Models.
+5346,0.0027229269398070586,11,pure_safety,RRM: Robust Reward Model Training Mitigates Reward Hacking.
+2238,0.0027086119365781125,13,pure_safety,Choosing Public Datasets for Private Machine Learning via Gradient Subspace Distance.
+4252,0.002668100825776631,6,pure_safety,Learning to Reweight for Generalizable Graph Neural Network.
+1942,0.0026601457748206873,14,pure_ethics,Lawyers are Dishonest? Quantifying Representational Harms in Commonsense Knowledge Resources
+2642,0.002640801637352181,19,pure_safety,On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods.
+2776,0.002640801637352181,19,pure_ethics,On the Pros and Cons of Active Learning for Moral Preference Elicitation.
+2743,0.002612616262146508,14,pure_ethics,Who's Responsible? Jointly Quantifying the Contribution of the Learning Algorithm and Data.
+2617,0.002607307371730998,23,pure_ethics,Strategies for Increasing Corporate Responsible AI Prioritization.
+1730,0.0025946385529821087,9,pure_ethics,Whose Language Counts as High Quality? Measuring Language Ideologies in Text Data Selection
+3069,0.002585349621113434,8,pure_safety,Linear Alignment: A Closed-form Solution for Aligning Human Preferences without Tuning and Feedback.
+5148,0.002585349621113434,8,pure_safety,Improving Generalization of Alignment with Human Preferences through Group Invariant Learning.
+1228,0.002579098323857632,14,pure_ethics,The Gender-GAP Pipeline: A Gender-Aware Polyglot Pipeline for Gender Characterisation in 55 Languages
+2858,0.0025689090430178734,7,pure_safety,"Accuracy, Interpretability, and Differential Privacy via Explainable Boosting."
+3846,0.002564829221453876,19,pure_ethics,Roles for computing in social change.
+4863,0.0025594056623999147,6,pure_safety,How to Robustify Black-Box ML Models? A Zeroth-Order Optimization Perspective.
+5279,0.0025560345672763296,29,pure_safety,AutoDAN-Turbo: A Lifelong Agent for Strategy Self-Exploration to Jailbreak LLMs.
+3044,0.0025386525602775,5,pure_safety,Transforming and Combining Rewards for Aligning Large Language Models.
+4890,0.0025202886796447496,8,pure_ethics,The MultiBERTs: BERT Reproductions for Robustness Analysis.
+4923,0.002513644126491779,24,pure_safety,On the Robustness of Safe Reinforcement Learning under Observational Perturbations.
+2874,0.0024982933012950197,7,pure_ethics,"Learning Representations by Humans, for Humans."
+674,0.002490759626476826,13,pure_ethics,Mitigating Bias for Question Answering Models by Tracking Bias Influence
+3526,0.0024828698105602578,5,pure_ethics,Arbitrary Decisions are a Hidden Cost of Differentially Private Training.
+1745,0.0024559271068018604,21,pure_ethics,Bridging Fairness and Environmental Sustainability in Natural Language Processing
+3733,0.0024512501869696254,11,pure_ethics,Expressing stigma and inappropriate responses prevents LLMs from safely replacing mental health providers.
+4803,0.0024399342070940623,7,pure_safety,A Framework for robustness Certification of Smoothed Classifiers using F-Divergences.
+5351,0.0024334915222225424,9,pure_safety,Persistent Pre-training Poisoning of LLMs.
+2496,0.0024269157080443818,13,pure_ethics,Write It Like You See It: Detectable Differences in Clinical Notes by Race Lead to Differential Model Recommendations.
+5177,0.0024232702706652957,19,pure_safety,Style Outweighs Substance: Failure Modes of LLM Judges in Alignment Benchmarking.
+562,0.002420177459517986,5,pure_safety,Know-MRI: A Knowledge Mechanisms Revealer\&Interpreter for Large Language Models
+2180,0.0024142389409195874,16,pure_safety,Improved Differentially Private Regression via Gradient Boosting.
+3965,0.002409945054581468,20,pure_ethics,Visions of a Discipline: Analyzing Introductory AI Courses on YouTube.
+19,0.0023832543011782907,16,pure_ethics,BiasEdit: Debiasing Stereotyped Language Models via Model Editing
+5365,0.0023417976622329703,8,pure_safety,Jailbreaking as a Reward Misspecification Problem.
+3261,0.0023367593712212815,11,pure_ethics,Preference-informed fairness.
+3107,0.002330082130394028,8,pure_safety,MoE-RBench: Towards Building Reliable Language Models with Sparse Mixture-of-Experts.
+3617,0.0023260082630617656,9,pure_ethics,Collective Constitutional AI: Aligning a Language Model with Public Input.
+142,0.0023216057873370983,20,pure_ethics,Libra-Leaderboard: Towards Responsible AI through a Balanced Leaderboard of Safety and Capability
+3401,0.0023174403120515222,24,pure_ethics,Algorithmic Fairness and Vertical Equity: Income Fairness with IRS Tax Audit Models.
+5294,0.002260758645133308,4,pure_ethics,Hidden in the Noise: Two-Stage Robust Watermarking for Images.
+2185,0.0022020438054212777,17,pure_safety,AI auditing: The Broken Bus on the Road to AI Accountability.
+508,0.0021960816990406517,24,pure_safety,Global MMLU: Understanding and Addressing Cultural and Linguistic Biases in Multilingual Evaluation
+3660,0.002191656590084643,3,pure_ethics,Algorithmic Arbitrariness in Content Moderation.
+3680,0.002191656590084643,6,pure_ethics,A Causal Perspective on Label Bias.
+3175,0.0021843059539693533,10,pure_safety,Position: Social Choice Should Guide AI Alignment in Dealing with Diverse Human Feedback.
+5091,0.0021802396479034367,8,pure_safety,The Unlocking Spell on Base LLMs: Rethinking Alignment via In-Context Learning.
+3344,0.0021722837198893956,19,pure_ethics,"Four Years of FAccT: A Reflexive, Mixed-Methods Analysis of Research Contributions, Shortcomings, and Future Prospects."
+3086,0.0021599682637860316,10,pure_safety,Amend to Alignment: Decoupled Prompt Tuning for Mitigating Spurious Correlation in Vision-Language Models.
+271,0.002154676223223986,14,pure_safety,SMART: Self-Aware Agent for Tool Overuse Mitigation
+5335,0.002150932038417091,11,pure_safety,DEEM: Diffusion models serve as the eyes of large language models for image perception.
+4463,0.0021408512509150882,5,pure_ethics,CrAM: Credibility-Aware Attention Modification in LLMs for Combating Misinformation in RAG.
+3643,0.0021366668650480815,17,pure_ethics,Participation in the age of foundation models.
+5154,0.0021260982247424745,6,pure_ethics,MUSE: Machine Unlearning Six-Way Evaluation for Language Models.
+5222,0.0021197271959828997,10,pure_safety,AgentHarm: A Benchmark for Measuring Harmfulness of LLM Agents.
+2884,0.002119105199516324,3,pure_safety,Explainable Automated Graph Representation Learning with Hyperparameter Importance.
+3726,0.002119105199516324,3,pure_ethics,AI Alignment at Your Discretion.
+5336,0.002119105199516324,7,pure_safety,Group-robust Sample Reweighting for Subpopulation Shifts via Influence Functions.
+1690,0.002074194091149877,13,pure_safety,"On the Safety of Conversational Models: Taxonomy, Dataset, and Benchmark"
+277,0.0020681439337955337,18,pure_safety,COPR: Continual Human Preference Learning via Optimal Policy Regularization
+1844,0.0020601303942874806,7,pure_safety,Pushing the Right Buttons: Adversarial Evaluation of Quality Estimation
+3150,0.0020519994386794583,27,pure_safety,SHINE: Shielding Backdoors in Deep Reinforcement Learning.
+212,0.0020471020438981476,16,pure_safety,RewardBench: Evaluating Reward Models for Language Modeling
+2653,0.002034462617308133,21,pure_ethics,Do Generative AI Models Output Harm while Representing Non-Western Cultures: Evidence from A Community-Centered Approach.
+1438,0.002024992534068104,14,pure_safety,Bridging Continuous and Discrete Spaces: Interpretable Sentence Representation Learning via Compositional Operations
+156,0.002006426304276807,13,pure_safety,1-2-3 Check: Enhancing Contextual Privacy in LLM via Multi-Agent Reasoning
+663,0.0019772042164090116,8,pure_ethics,Automatic Generation of Model and Data Cards: A Step Towards Responsible AI
+5284,0.001968096867870774,6,pure_safety,How to Evaluate Reward Models for RLHF.
+5340,0.0019597115019233547,10,pure_safety,Beyond Interpretability: The Gains of Feature Monosemanticity on Model Robustness.
+4753,0.00195794226913007,10,pure_ethics,Bayes-TrEx: a Bayesian Sampling Approach to Model Transparency by Example.
+4207,0.0019536542772087303,3,pure_safety,Unveiling the Black Box of PLMs with Semantic Anchors: Towards Interpretable Neural Semantic Parsing.
+1202,0.001950234904240726,5,pure_safety,Prototypical Reward Network for Data-Efficient RLHF
+2231,0.0019452522305130348,10,pure_safety,Inexact Unlearning Needs More Careful Evaluations to Avoid a False Sense of Privacy.
+5045,0.0019419178560985291,11,pure_safety,Real-Fake: Effective Training Data Synthesis Through Distribution Matching.
+3100,0.001929734486739969,8,pure_ethics,Fair Risk Control: A Generalized Framework for Calibrating Multi-group Fairness Risks.
+3518,0.0019260798401073427,24,pure_ethics,Contrastive Language-Vision AI Models Pretrained on Web-Scraped Multimodal Data Exhibit Sexual Objectification Bias.
+252,0.0019153173735668029,12,pure_safety,Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey
+4758,0.001902458686013704,4,pure_safety,Power up! Robust Graph Convolutional Network via Graph Powering.
+2856,0.0019014510278113662,4,pure_safety,Optimizing Black-box Metrics with Iterative Example Weighting.
+436,0.001892979951558382,7,pure_safety,M-RewardBench: Evaluating Reward Models in Multilingual Settings
+804,0.0018881334499831815,21,pure_ethics,Overview of the Shared Task on Machine Translation Gender Bias Evaluation with Multilingual Holistic Bias
+684,0.0018744000961585325,10,pure_safety,Backdooring Instruction-Tuned Large Language Models with Virtual Prompt Injection
+1394,0.0018727818992080743,9,pure_safety,ROBBIE: Robust Bias Evaluation of Large Generative Language Models
+1683,0.0018575564294369075,12,pure_safety,Square One Bias in NLP: Towards a Multi-Dimensional Exploration of the Research Manifold
+335,0.0018554725827757191,12,pure_ethics,Revealing Hidden Mechanisms of Cross-Country Content Moderation with Natural Language Processing
+360,0.0018402490919778786,14,pure_safety,Con-ReCall: Detecting Pre-training Data in LLMs via Contrastive Decoding
+5257,0.0018288996372430473,2,pure_safety,RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style.
+2806,0.001828899637243047,4,pure_ethics,FACT: A Diagnostic for Group Fairness Trade-offs.
+3090,0.001828899637243047,3,pure_ethics,LIDAO: Towards Limited Interventions for Debiasing (Large) Language Models.
+5189,0.001828899637243047,3,pure_safety,On-the-fly Preference Alignment via Principle-Guided Decoding.
+1697,0.0018250712809088005,11,pure_safety,Identifying and Mitigating Spurious Correlations for Improving Robustness in NLP Models
+1035,0.0018249262678359942,5,pure_ethics,Large Language Models Can Be Contextual Privacy Protection Learners
+3866,0.0018246237947398514,12,pure_ethics,Narratives and Counternarratives on Data Sharing in Africa.
+1520,0.0018211966173249361,11,pure_safety,Are Machine Rationales (Not) Useful to Humans? Measuring and Improving Human Utility of Free-text Rationales
+344,0.0018184680675079647,17,pure_ethics,Are LLMs Rational Investors? A Study on the Financial Bias in LLMs
+3496,0.001815731354061136,3,pure_ethics,Envisioning Equitable Speech Technologies for Black Older Adults.
+2122,0.001814982733917972,11,pure_ethics,Gender Bias in Multilingual Embeddings and Cross-Lingual Transfer
+2065,0.0018073261983489448,13,pure_ethics,"``This is a Problem, Don't You Agree?'' Framing and Bias in Human Evaluation for Natural Language Generation"
+3264,0.0017821225346337074,22,pure_safety,AI explainability 360: hands-on tutorial.
+4073,0.0017821225346337074,22,pure_safety,AI Explainability 360: Impact and Design.
+3051,0.001768290316567464,6,pure_safety,Weak-to-Strong Generalization: Eliciting Strong Capabilities With Weak Supervision.
+5126,0.0017641613954496374,2,pure_ethics,An Unforgeable Publicly Verifiable Watermark for Large Language Models.
+4085,0.0017563482466747282,2,pure_ethics,Debiasing NLU Models via Causal Intervention and Counterfactual Reasoning.
+2230,0.0017563482466747278,5,pure_safety,SEA: Shareable and Explainable Attribution for Query-Based Black-Box Attacks.
+3013,0.0017563482466747278,2,pure_safety,Online Local Differential Private Quantile Inference via Self-normalization.
+3105,0.0017563482466747278,4,pure_ethics,Position: AI-Powered Autonomous Weapons Risk Geopolitical Instability and Threaten AI Research.
+4383,0.0017563482466747278,3,pure_safety,Dissenting Explanations: Leveraging Disagreement to Reduce Model Overreliance.
+4658,0.0017563482466747278,3,pure_ethics,Pairwise Fairness for Ranking and Regression.
+4817,0.0017563482466747278,2,pure_safety,A Learning Theoretic Perspective on Local Explainability.
+5041,0.0017563482466747278,2,pure_ethics,Towards Poisoning Fair Representations.
+5280,0.0017563482466747278,2,pure_safety,A Black Swan Hypothesis: The Role of Human Irrationality in AI Safety.
+3255,0.0017455732471590897,10,pure_ethics,Bridging the gap from AI ethics research to practice.
+2172,0.0017369424249596254,24,pure_safety,A Validity Perspective on Evaluating the Justified Use of Data-driven Decision-making Algorithms.
+1798,0.0017359915375240258,14,pure_ethics,You reap what you sow: On the Challenges of Bias Evaluation Under Multilingual Settings
+170,0.001734179766223297,4,pure_ethics,Are We Paying Attention to Her? Investigating Gender Disambiguation and Attention in Machine Translation
+1049,0.0017246388728586355,6,pure_safety,MedCoT: Medical Chain of Thought via Hierarchical Expert
+2124,0.0017158757808965247,14,pure_ethics,Towards Understanding Gender Bias in Relation Extraction
+1595,0.001713412611576622,15,pure_ethics,"How Gender Debiasing Affects Internal Model Representations, and Why It Matters"
+3302,0.001712987861876376,24,pure_ethics,Fairness Through Robustness: Investigating Robustness Disparity in Deep Learning.
+5253,0.0017004203103488256,6,pure_safety,Self-Evolved Reward Learning for LLMS.
+107,0.001685855039618015,7,pure_safety,Self-Generated Critiques Boost Reward Modeling for Language Models
+5266,0.001683828090500833,30,pure_safety,Improved Techniques for Optimization-Based Jailbreaking on Large Language Models.
+1559,0.0016809773416795633,8,pure_ethics,"Everything you need to know about Multilingual LLMs: Towards fair, performant and reliable models for languages of the world"
+2863,0.0016781858701001157,28,pure_safety,RNNRepair: Automatic RNN Repair via Model-based Analysis.
+2469,0.0016705090035891161,7,pure_safety,"Resume Format, LinkedIn URLs and Other Unexpected Influences on AI Personality Prediction in Hiring: Results of an Audit."
+4047,0.0016685803344453035,3,pure_safety,Disentangled Spatiotemporal Graph Generative Models.
+2665,0.0016477668031108473,23,pure_ethics,CIVICS: Building a Dataset for Examining Culturally-Informed Values in Large Language Models.
+4112,0.0016323196087366957,12,pure_safety,Pseudo Label-Guided Model Inversion Attack via Conditional Generative Adversarial Network.
+3553,0.001625359411217068,16,pure_ethics,Augmented Datasheets for Speech Datasets and Ethical Decision-Making.
+2875,0.0016175256521935234,4,pure_safety,KNAS: Green Neural Architecture Search.
+4868,0.0016157426421681733,19,pure_safety,The Unreasonable Effectiveness of Random Pruning: Return of the Most Naive Baseline for Sparse Training.
+125,0.0016148247772617614,12,pure_ethics,Self-Debiasing Large Language Models: Zero-Shot Recognition and Reduction of Stereotypes
+996,0.0015879320496086566,15,pure_ethics,Prometheus 2: An Open Source Language Model Specialized in Evaluating Other Language Models
+2538,0.0015864086391938466,21,pure_safety,A Deep Dive into Dataset Imbalance and Bias in Face Identification.
+2854,0.0015864086391938466,21,pure_safety,Just How Toxic is Data Poisoning? A Unified Benchmark for Backdoor and Data Poisoning Attacks.
+1511,0.0015720204318742533,10,pure_ethics,Social-Group-Agnostic Bias Mitigation via the Stereotype Content Model
+1706,0.001571317526547995,11,pure_safety,Investigating Ensemble Methods for Model Robustness Improvement of Text Classifiers
+1337,0.0015666585724220757,13,pure_safety,Attack Prompt Generation for Red Teaming and Defending Large Language Models
+3486,0.0015582728814818028,16,pure_ethics,Examining risks of racial biases in NLP tools for child protective services.
+3531,0.0015548451455802584,13,pure_ethics,Multi-Target Multiplicity: Flexibility and Fairness in Target Specification under Resource Constraints.
+1118,0.0015517936316001612,10,pure_safety,Transformer-specific Interpretability
+3290,0.0015424704963306305,16,pure_ethics,Chasing Your Long Tails: Differentially Private Prediction in Health Care Settings.
+576,0.001526209118726201,20,pure_safety,"Guardrails and Security for LLMs: Safe, Secure and Controllable Steering of LLM Applications"
+3223,0.0015179379672422377,27,pure_ethics,Closing the AI accountability gap: defining an end-to-end framework for internal algorithmic auditing.
+1608,0.0015056910422044866,22,pure_ethics,Annotators with Attitudes: How Annotator Beliefs And Identities Bias Toxic Language Detection
+5161,0.001503877892433292,24,pure_ethics,LLM Unlearning via Loss Adjustment with Only Forget Data.
+2149,0.001500403063280935,12,pure_safety,Interpretability and Analysis in Neural NLP
+1445,0.0014950160935808974,11,pure_ethics,"Designing, Evaluating, and Learning from Humans Interacting with NLP Models"
+3284,0.001493900651665709,9,pure_ethics,Bridging Machine Learning and Mechanism Design towards Algorithmic Fairness.
+3375,0.0014885744140149973,21,pure_ethics,Healthsheet: Development of a Transparency Artifact for Health Datasets.
+5039,0.0014801024476172367,11,pure_ethics,Federated Causal Discovery from Heterogeneous Data.
+5384,0.0014801024476172367,11,pure_safety,Learning Graph Invariance by Harnessing Spuriosity.
+4998,0.0014750976815222083,14,pure_safety,Probabilistically Robust Recourse: Navigating the Trade-offs between Costs and Robustness in Algorithmic Recourse.
+4386,0.0014577808830465847,12,pure_safety,Learning Optimal Advantage from Preferences and Mistaking It for Reward.
+3637,0.0014562957319201658,6,pure_ethics,Data Agency Theory: A Precise Theory of Justice for AI Applications.
+690,0.0014500201531640468,5,pure_ethics,Capturing Perspectives of Crowdsourced Annotators in Subjective Learning Tasks
+118,0.0014468816206975915,3,pure_ethics,Inference-Time Selective Debiasing to Enhance Fairness in Text Classification Models
+1992,0.0014293922082710662,16,pure_ethics,"A Survey of Race, Racism, and Anti-Racism in NLP"
+750,0.0014267616365632038,14,pure_ethics,Revisiting Data Reconstruction Attacks on Real-world Dataset for Federated Natural Language Understanding
+3387,0.0014221248967427815,20,pure_ethics,Human-Algorithm Collaboration: Achieving Complementarity and Avoiding Unfairness.
+3677,0.0014167674324869004,7,pure_ethics,Unlawful Proxy Discrimination: A Framework for Challenging Inherently Discriminatory Algorithms.
+4284,0.0014164056695491962,6,pure_safety,ProAgent: Building Proactive Cooperative Agents with Large Language Models.
+3402,0.0014097324348277096,5,pure_ethics,Who Goes First? Influences of Human-AI Workflow on Decision Making in Clinical Imaging.
+391,0.0014015356218627388,7,pure_safety,Towards Consistent Natural-Language Explanations via Explanation-Consistency Finetuning
+3723,0.0013984050472266823,15,pure_ethics,Lost in Machine Translation: The Sociocultural Implications of Language Technologies in Nigeria.
+3460,0.0013863515206968733,24,pure_ethics,Evidence for Hypodescent in Visual Semantic AI.
+2859,0.001386051784488654,9,pure_safety,A General Framework For Detecting Anomalous Inputs to DNN Classifiers.
+5153,0.0013855806955180086,6,pure_ethics,Programming Refusal with Conditional Activation Steering.
+2424,0.0013794197630933888,24,pure_ethics,"Gender Bias in Word Embeddings: A Comprehensive Analysis of Frequency, Syntax, and Semantics."
+5089,0.001374926458104763,10,pure_safety,Towards Understanding Sycophancy in Language Models.
+1030,0.0013724509254057883,8,pure_safety,BEEAR: Embedding-based Adversarial Removal of Safety Backdoors in Instruction-tuned Language Models
+1830,0.0013721870170648716,7,pure_ethics,DataLab: A Platform for Data Analysis and Intervention
+3182,0.0013674496218911208,9,pure_safety,Decomposing Uncertainty for Large Language Models through Input Clarification Ensembling.
+3450,0.001360158124681596,14,pure_ethics,The Fallacy of AI Functionality.
+668,0.0013597236315755128,11,pure_safety,GRASP: A Disagreement Analysis Framework to Assess Group Associations in Perspectives
+3018,0.0013539189478645036,7,pure_ethics,Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling.
+957,0.00135186502074399,4,pure_ethics,Position Paper: Data-Centric AI in the Age of Large Language Models
+1358,0.0013462313583232567,6,pure_ethics,Responsible AI Considerations in Text Summarization Research: A Review of Current Practices
+2965,0.0013377047003451524,7,pure_safety,Adversarial Policies Beat Superhuman Go AIs.
+2805,0.0013314813952081423,8,pure_safety,Invariant Rationalization.
+3263,0.0013287395775655802,4,pure_ethics,Fairness is not static: deeper understanding of long term fairness via simulation studies.
+1041,0.0013265330780472527,8,pure_ethics,CopyBench: Measuring Literal and Non-Literal Reproduction of Copyright-Protected Text in Language Model Generation
+1023,0.0013252790826293332,11,pure_safety,Demystifying Verbatim Memorization in Large Language Models
+1841,0.001321615208062723,9,pure_ethics,Improving Counterfactual Generation for Fair Hate Speech Detection
+1874,0.001321615208062723,9,pure_ethics,On Transferability of Bias Mitigation Effects in Language Model Fine-Tuning
+3494,0.001320811782604375,28,pure_ethics,Group-Fair Classification with Strategic Agents.
+863,0.0013195940001281166,13,pure_ethics,Identifying Semantic Induction Heads to Understand In-Context Learning
+1411,0.0013116691928665247,12,pure_ethics,Gender Biases in Automatic Evaluation Metrics for Image Captioning
+3691,0.0013044630731728734,18,pure_ethics,The Impact of Differential Feature Under-reporting on Algorithmic Fairness.
+5088,0.0013017431204578541,8,pure_safety,Learning with Language-Guided State Abstractions.
+3783,0.001301377999178081,12,pure_safety,In Which Areas of Technical AI Safety Could Geopolitical Rivals Cooperate?
+836,0.0012971859423870056,11,pure_ethics,DPDLLM: A Black-box Framework for Detecting Pre-training Data from Large Language Models
+923,0.0012948407900040305,7,pure_ethics,Evaluating Moral Beliefs across LLMs through a Pluralistic Framework
+2317,0.0012907035297333727,30,pure_ethics,Diversity and Inclusion Metrics in Subset Selection.
+1457,0.0012878834265098193,19,pure_ethics,Extracting or Guessing? Improving Faithfulness of Event Temporal Relation Extraction
