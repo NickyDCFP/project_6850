@@ -4,3 +4,4 @@ __pycache__/*
 *.pyc
 anthology+abstracts.bib
 dblp.xml
+.DS_Store

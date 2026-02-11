@@ -48,8 +48,6 @@ Key directories and files:
 - `src/`: Core parsing/scraping utilities.
 - `scripts/`: One-off and experiment scripts (filtering, perturbations, plotting).
 - `data/`: Raw, intermediate, and filtered datasets.
-- `perturb_grid_out/`: Outputs from perturbation and homophily experiments.
-- `web/`: Static visualization assets (HTML/JSON for dashboards).
 
 Notable entry points:
 
