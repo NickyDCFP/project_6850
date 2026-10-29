@@ -29,12 +29,13 @@ script that calls it. Pass `corpus='legacy'` to get the original behaviour.
 
 | Paper result | Reproduces? | Script |
 |---|---|---|
-| Table 2 (homophily) | **Only with `legacy`**: baseline and 100-removed rows exact, others within ~0.2 pts (paper network at 400 removed: 73.3 vs 74.7) | `table2_homophily.py` |
+| Table 2 (homophily) | **Only with `legacy`**: baseline and 100-removed rows exact; author network within 0.1 pts at every level; paper network within 0.3 pts up to 300 removed, but off at 400 removed (73.3 / 63.2 / 50.9 vs 74.7 / 62.0 / 56.7) | `table2_homophily.py` |
 | Table 7 (reachability within k hops) | **Yes, exactly**, including the k=5 shuffle null (21.5%) | `table7_reachability.py` |
 | Figure 5 (weighted distances) | Yes: 80% of safety–safety pairs within 5.83 ("within 6.0") | `table7_reachability.py` |
 | Table 3 (bridge concentration) | **No**: generating script not in the repo | `table3_bridges.py` (best-effort) |
 | Table 1 (label split) | **No**: close, not exact | `table1_labels.py` |
-| Table 6 / Figure 2 (counts per venue and year) | Yes, with the `full` corpus | `analyze_aggregated.load_combined_data` |
+| Table 6 (papers per venue after filtering) | Yes, with the `full` corpus: every venue and the 6,442 total match | `analyze_aggregated.load_combined_data` |
+| Figure 2 (papers per year) | Not checked | |
 
 ### Table 2: why 83.1% and what the paper's definition gives
 
