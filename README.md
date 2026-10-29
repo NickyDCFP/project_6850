@@ -10,6 +10,8 @@ You will need:
 
 You can also access all of this data in `data/final_filtered` and run analyses directly, along with logs that show rejected examples.
 
+To recompute the paper's tables and see which results reproduce (and why some don't), see [`reproduction/README.md`](reproduction/README.md).
+
 ## Overview
 
 At a high level, the pipeline is:

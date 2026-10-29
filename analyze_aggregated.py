@@ -43,13 +43,28 @@ def load_papers_data(filepath: str) -> List[Dict]:
 load_jsonl = load_papers_data
 
 
-def load_combined_data() -> List[Dict]:
-    """Load and combine ACL and DBLP data."""
+FINAL_FILTERED_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'final_filtered')
+
+
+def load_combined_data(corpus: str = 'full') -> List[Dict]:
+    """Load and combine ACL and DBLP data.
+
+    corpus='full'   -> all 8 files in data/final_filtered (6,442 papers, as described in the paper).
+    corpus='legacy' -> the original glob '*_filtered.jsonl', which silently skips
+                       filtered_acl_anthology.jsonl and filtered_neurips.jsonl (3,248 papers).
+                       The paper's Table 2 was produced on this subset.
+    """
+    patterns = {'full': '*.jsonl', 'legacy': '*_filtered.jsonl'}
+    if corpus not in patterns:
+        raise ValueError(f"corpus must be one of {sorted(patterns)}, got {corpus!r}")
     all_papers = []
-    for filepath in glob('data/final_filtered/*_filtered.jsonl'):
+    for filepath in sorted(glob(os.path.join(FINAL_FILTERED_DIR, patterns[corpus]))):
         papers = load_papers_data(filepath)
+        # Files are named either '<conf>_filtered.jsonl' or 'filtered_<conf>[_anthology].jsonl'
+        stem = os.path.basename(filepath).split('.')[0].split('_')
+        source = stem[1] if stem[0] == 'filtered' else stem[0]
         for paper in papers:
-            paper['source_file'] = os.path.basename(filepath).split("_")[0]
+            paper['source_file'] = source
             if paper['source_file'] in ['aies', 'fat', 'satml']:
                 if paper['ethics_score'] == 0 and paper['safety_score'] == 0:
                     if paper['source_file'] == 'satml':

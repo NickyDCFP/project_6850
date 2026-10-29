@@ -1,0 +1,5 @@
+row,pure_safety,pure_ethics,mixed
+papers,3109,2866,467
+authors,10197,7006,3487
+authors >=2 papers,1336,958,2269
+"authors >=2 papers (normalized names, as in the networks)",1355,955,2337
