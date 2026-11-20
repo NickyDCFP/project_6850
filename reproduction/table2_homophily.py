@@ -30,20 +30,20 @@ def degree_order(G):
     return [n for n, _ in sorted(G.degree(), key=lambda t: -t[1])]
 
 
-def legacy(papers):
+def legacy(papers, levels=LEVELS):
     cats = legacy_author_categories(papers)
     author_seq = degree_order(legacy_author_graph(papers))
     paper_seq = degree_order(legacy_paper_graph(papers)[0])
-    for level in LEVELS:
+    for level in levels:
         G = legacy_author_graph(papers, removed=frozenset(author_seq[:level]))
         P, pcats = legacy_paper_graph(papers, removed=frozenset(paper_seq[:level]))
         yield level, homophily_legacy(G, cats), homophily_legacy(P, pcats, weighted=True)
 
 
-def paper_definition(papers):
+def paper_definition(papers, levels=LEVELS):
     G, cats = coauthorship_author_graph(papers)
     P, pcats = paper_graph(papers)
-    for level in LEVELS:
+    for level in levels:
         yield (level, homophily_paper_definition(remove_top_degree(G, level), cats),
                homophily_paper_definition(remove_top_degree(P, level), pcats))
 

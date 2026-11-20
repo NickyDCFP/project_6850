@@ -37,10 +37,10 @@ def category(safety, ethics):
     return 'neither'
 
 
-def write_csv(name, header, rows):
+def write_csv(name, header, rows, results_dir=RESULTS_DIR):
     import csv
-    os.makedirs(RESULTS_DIR, exist_ok=True)
-    path = os.path.join(RESULTS_DIR, name)
+    os.makedirs(results_dir, exist_ok=True)
+    path = os.path.join(results_dir, name)
     with open(path, 'w', newline='', encoding='utf-8') as f:
         w = csv.writer(f)
         w.writerow(header)
