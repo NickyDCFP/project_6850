@@ -11,7 +11,7 @@ Run from the repository root, in order:
     #    https://aclanthology.org/anthology+abstracts.bib.gz
     python -m collection.collect_dblp        # ~6 min
     python -m collection.collect_acl         # ~1.5 min
-    python -m collection.enrich_abstracts --stages pages s2-ids openalex-doi   # ~1-2 h first time, resumable
+    python -m collection.enrich_abstracts --stages pages s2-ids openalex-doi   # ~1-2 h, resumable (s2-title was not run)
     python -m collection.filter_papers --validate 160
     python -m collection.filter_papers --max-calls 450   # rerun until "all new candidates judged"
     python -m collection.fetch_citations     # ~2-3 h without a Semantic Scholar key, resumable
@@ -55,20 +55,42 @@ Keys go in `.env` (gitignored): `GEMINI_API_KEY` (required for filtering), and o
 
 ## What is in git, and what you must rebuild
 
-Committed: `data/updated/filtered/`, `data/updated/corpus.jsonl`, `data/updated/citations/` (including the
+Committed: `data/updated/filtered/`, `data/updated/corpus.jsonl`, `data/updated/collected_manifest.tsv`, `data/updated/citations/` (including the
 95 MB `papers.jsonl`), and in `data/updated/cache/` the filter decisions, abstract lookups, validation
 results and run logs. Analyses need only these.
 
 Not committed (gitignored, too large):
 
-| Path | Size | How to get it back | Exact? |
-|---|---|---|---|
-| `data/updated/cache/citations.jsonl` | 93 MB | Nothing to do: `python -m collection.fetch_citations` recreates it from `citations/papers.jsonl` when it is missing, with no API requests. | Yes, identical. |
-| `data/updated/collected/` | 268 MB | Download the dumps (step 0), then `collect_dblp`, `collect_acl`, `enrich_abstracts --stages pages s2-ids openalex-doi`. No API requests: the committed `cache/abstracts.jsonl` records every lookup these stages made, including misses. (The corpus was built without the `s2-title` stage; adding it would send ~2,700 Semantic Scholar requests, mostly ACL, and could change abstracts and hence filter candidates.) | Only with the same dumps (sha256 below). DBLP and the Anthology publish just the latest dump, so a later download gives a superset: newly indexed papers become new filter candidates, everything already judged is reused from `cache/filter_decisions.jsonl`. |
-| `data/raw/` | 1.4 GB | Step 0. | As above. |
+| Path | Size | How to get it back |
+|---|---|---|
+| `data/updated/cache/citations.jsonl` | 93 MB | Nothing to do: `python -m collection.fetch_citations` recreates it from `citations/papers.jsonl` when it is missing. No requests; identical. |
+| `data/updated/collected/` | 268 MB | See below. |
+| `data/raw/` | 1.4 GB | Step 0 (three downloads). |
 
-`collected/` is needed only to re-run `filter_papers` or to resolve citations for papers not yet in
-the cache; `build_corpus` and the analyses do not read it.
+### Rebuilding `collected/` (no API requests, no new papers)
+
+    # download the three dumps into data/raw/ (step 0), then:
+    python -m collection.collect_dblp
+    python -m collection.collect_acl
+    python -m collection.enrich_abstracts --cache-only
+
+- **Same papers.** `data/updated/collected_manifest.tsv` (committed) lists every paper id in `collected/`,
+  per file. The collect scripts keep only those papers, in that order, so a dump downloaded later does
+  not add the papers DBLP or the Anthology indexed since. They print how many were ignored, and warn if
+  a pinned paper is missing from the dump (removed or re-keyed upstream).
+- **No requests.** `--cache-only` fills abstracts from the committed `cache/abstracts.jsonl` and contacts
+  no API.
+- **Exactness.** With the dumps below (sha256), the rebuild is identical apart from the ACL parser's
+  `collected_at` timestamp (checked 2026-11-23: same ids, order and every other field in all 145,439 records). A later dump gives the same
+  paper set, but DBLP/Anthology corrections to existing records (titles, DOIs, author names) come along.
+- **Do not re-run `filter_papers` or `fetch_citations --refresh` after a rebuild.** Their outputs are
+  committed. On a later dump, corrected titles or abstracts can change keyword matches and so create
+  unjudged candidates, which `filter_papers` would send to Gemini.
+
+To deliberately extend the corpus with newly indexed papers, run the collect scripts with `--all-papers`
+(this rewrites the manifest), then the full pipeline above.
+
+`collected/` is needed only to re-run the pipeline; `build_corpus` and the analyses do not read it.
 
 Dumps used (downloaded 2026-11-20):
 

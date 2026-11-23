@@ -12,6 +12,8 @@ Stages, in order (each only touches papers still missing an abstract):
 Every result is appended to data/updated/cache/abstracts.jsonl (id, abstract, source) so runs can
 be interrupted and resumed; the collected files are then rewritten with the abstracts filled in and
 `abstract_source` set.
+
+--cache-only makes no requests: it only fills abstracts from the cache (use it when rebuilding collected/).
 """
 import argparse
 import os
@@ -96,7 +98,10 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('--stages', nargs='+', choices=STAGES, default=STAGES)
     ap.add_argument('--venues', nargs='+', help='venue tokens to process (default: all collected files)')
+    ap.add_argument('--cache-only', action='store_true', help='no requests: fill abstracts from the cache only')
     args = ap.parse_args()
+    if args.cache_only:
+        args.stages = []
 
     files = sorted(glob(os.path.join(COLLECTED_DIR, '*.jsonl')))
     if args.venues:

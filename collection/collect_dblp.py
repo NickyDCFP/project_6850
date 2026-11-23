@@ -7,6 +7,9 @@ Writes data/updated/collected/<venue>_<year>.jsonl with the same fields as data/
 files also contain one `proceedings` record per volume, which is the volume itself, not a paper.
 Abstracts already gathered for the shipped dataset are reused by DBLP key; the rest are filled by
 collection.enrich_abstracts.
+
+By default only the papers listed in data/updated/collected_manifest.tsv are kept (the corpus's pinned
+paper set), so a newer dump does not add papers. --all-papers keeps everything and updates the manifest.
 """
 import argparse
 import gzip
@@ -15,8 +18,8 @@ import xml.etree.ElementTree as ET
 from collections import Counter, defaultdict
 from glob import glob
 
-from collection.common import (COLLECTED_DIR, DBLP_VENUES, FIRST_YEAR, RAW_DIR, SHIPPED_DATASET_DIR, has_abstract,
-                               read_jsonl, write_jsonl)
+from collection.common import (COLLECTED_DIR, DBLP_VENUES, FIRST_YEAR, RAW_DIR, SHIPPED_DATASET_DIR, apply_manifest,
+                               has_abstract, load_manifest, read_jsonl, report_manifest, update_manifest, write_jsonl)
 from parse_dblp_xml import EntityFixingFile, parse_dtd  # noqa: E402 (repo root is put on sys.path by common)
 
 DOI_PREFIX = ('https://doi.org/', 'http://doi.org/', 'https://dx.doi.org/', 'http://dx.doi.org/')
@@ -77,9 +80,17 @@ def main():
     ap.add_argument('--dump', default=os.path.join(RAW_DIR, 'dblp.xml.gz'))
     ap.add_argument('--dtd', default=os.path.join(RAW_DIR, 'dblp.dtd'))
     ap.add_argument('--last-year', type=int, default=2026)
+    ap.add_argument('--all-papers', action='store_true', help='keep papers not in the manifest and update it')
     args = ap.parse_args()
 
-    groups = parse(args.dump, args.dtd, args.last_year)
+    parsed = parse(args.dump, args.dtd, args.last_year)
+    owns = lambda stem: stem.rsplit('_', 1)[0] in DBLP_VENUES  # noqa: E731
+    manifest = None if args.all_papers else load_manifest()
+    if manifest is None:
+        groups = parsed
+    else:
+        by_stem, dropped, missing = apply_manifest({f'{v}_{y}': recs for (v, y), recs in parsed.items()}, manifest, owns)
+        groups = {tuple(s.rsplit('_', 1)): recs for s, recs in by_stem.items()}
     abstracts = shipped_abstracts()
     reused = Counter()
     for (venue, year), recs in sorted(groups.items()):
@@ -93,6 +104,10 @@ def main():
     for (venue, year), recs in sorted(groups.items()):
         print(f'{venue:>8} {year:>4} {len(recs):>6} {reused[venue, year]:>15}')
     print(f'total {sum(map(len, groups.values()))} papers, {sum(reused.values())} abstracts reused')
+    if manifest is None:
+        update_manifest({f'{v}_{y}': recs for (v, y), recs in groups.items()}, owns)
+    else:
+        report_manifest(dropped, missing)
 
 
 if __name__ == '__main__':
