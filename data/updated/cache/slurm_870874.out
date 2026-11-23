@@ -1,0 +1,5 @@
+2026-11-21 22:24:51 pipeline started (pid 3870663)
+2026-11-21 22:24:51 notified: pipeline started
+2026-11-21 22:24:51 citations (shipped corpus) started, pid 3870680
+2026-11-21 22:24:51 filter run, budget 0 requests -> data/updated/cache/filter_run_2026-11-21_2224.log
+2026-11-21 22:25:05 519 candidates left; sleeping 17395s until the quota resets

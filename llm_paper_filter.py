@@ -6,6 +6,7 @@ vs. applied AI in ethical contexts (like hate speech detection).
 
 import json
 import os
+import threading
 import time
 import warnings
 from typing import Dict, List, Tuple, Optional
@@ -26,29 +27,13 @@ import logging
 logging.getLogger('google').setLevel(logging.ERROR)
 logging.getLogger('urllib3').setLevel(logging.ERROR)
 
-from google.generativeai import GenerativeModel
-import google.generativeai as genai
+from google import genai
+from google.genai import types
 from pathlib import Path
 from tqdm import tqdm
 import argparse
 
-@dataclass
-class FilterResult:
-    """Result of paper filtering."""
-    include: bool
-    category: str
-    confidence: float
-    reasoning: str
-
-class GeminiEthicsSafetyPaperFilter:
-    """Gemini-powered filter for identifying genuine AI ethics/safety research."""
-    
-    def __init__(self, api_key: Optional[str] = None, model: str = "gemini-1.5-flash"):
-        """Initialize the filter with Gemini API."""
-        genai.configure(api_key=api_key or os.getenv('GEMINI_API_KEY'))
-        self.model = GenerativeModel(
-            "gemini-2.5-flash",
-            system_instruction="""You are an expert research assistant tasked with filtering academic papers based on their relevance to AI Ethics and AI Safety.
+SYSTEM_INSTRUCTION = """You are an expert research assistant tasked with filtering academic papers based on their relevance to AI Ethics and AI Safety.
 Your goal is to determine if a paper's primary contribution falls into one of these two fields.
 
 You will be given the paper's title and abstract. You must return a JSON object with the following structure:
@@ -94,7 +79,31 @@ You will be given the paper's title and abstract. You must return a JSON object 
 - **`confidence`**: How sure are you of your decision? 1.0 for very sure, 0.5 for uncertain.
 - **`reasoning`**: A concise, one-sentence justification for your decision, referencing the rules above.
 """
+
+
+@dataclass
+class FilterResult:
+    """Result of paper filtering."""
+    include: bool
+    category: str
+    confidence: float
+    reasoning: str
+
+class GeminiEthicsSafetyPaperFilter:
+    """Gemini-powered filter for identifying genuine AI ethics/safety research."""
+    
+    def __init__(self, api_key: Optional[str] = None, model: str = "gemini-2.5-flash",
+                 system_instruction: str = SYSTEM_INSTRUCTION):
+        """Initialize the filter with Gemini API (google-genai SDK; the paper used gemini-2.5-flash)."""
+        self.client = genai.Client(api_key=api_key or os.getenv('GEMINI_API_KEY'),
+                                   http_options=types.HttpOptions(timeout=180_000))  # ms; calls otherwise never time out
+        self.model_name = model
+        self.config = types.GenerateContentConfig(
+            system_instruction=system_instruction,
+            response_mime_type="application/json",
         )
+        self.usage = {'calls': 0, 'input': 0, 'output': 0}
+        self.usage_lock = threading.Lock()
 
         # Define very strict inclusion criteria
         self.system_prompt = """You are an expert AI ethics and safety researcher. Your task is to distinguish between:
@@ -147,7 +156,7 @@ You will be given the paper's title and abstract. You must return a JSON object 
         return final_results
 
     
-    @retry(wait=wait_random_exponential(min=1, max=3), stop=stop_after_attempt(6))
+    @retry(wait=wait_random_exponential(min=2, max=60), stop=stop_after_attempt(10))
     def filter_paper(self, chunk) -> List[FilterResult]:
         """Filter a single paper using Gemini."""
         # Prepare paper text
@@ -166,7 +175,13 @@ You will be given the paper's title and abstract. You must return a JSON object 
         #print("paper_txt_string", paper_txt_string)
         full_prompt = f"{self.system_prompt}\n\nAnalyze these papers:\n\n{paper_txt_string}"
 
-        response = self.model.generate_content(full_prompt)
+        response = self.client.models.generate_content(model=self.model_name, contents=full_prompt, config=self.config)
+        usage = response.usage_metadata
+        if usage:
+            with self.usage_lock:
+                self.usage['calls'] += 1
+                self.usage['input'] += usage.prompt_token_count or 0
+                self.usage['output'] += (usage.candidates_token_count or 0) + (usage.thoughts_token_count or 0)
         content = response.text.strip()
         try:
             # Extract JSON (handle cases where model wraps in ```json```)
@@ -178,6 +193,8 @@ You will be given the paper's title and abstract. You must return a JSON object 
                 content = content.split("```")[1].strip()
             
             result_datas = json.loads(content)
+            if isinstance(result_datas, dict):
+                result_datas = result_datas.get('papers') or result_datas.get('results') or [result_datas]
 
             assert len(result_datas) == len(paper_texts), "Mismatch in number of papers and results"
             return [FilterResult(

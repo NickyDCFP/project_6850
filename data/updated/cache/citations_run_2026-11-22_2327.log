@@ -1,0 +1,56 @@
+10547 corpus papers, 1 to resolve
+by id: 0 of 1 papers have an ACL id, DOI or arXiv id
+by title: 1 papers
+OpenAlex: 0 papers (0 left for the next run: Semantic Scholar throttled)
+   venue year papers resolved with refs
+    aaai 2020     66       66        64
+    aaai 2021     95       95        89
+    aaai 2022     93       93        88
+    aaai 2023    121      121       112
+    aaai 2024    175      175       160
+    aaai 2025    229      229       199
+    aaai 2026    438      438       356
+     acl 2020    138      137       114
+     acl 2021    177      177       159
+     acl 2022    279      279       247
+     acl 2023    335      335       304
+     acl 2024    643      643       544
+     acl 2025    584      580       444
+     acl 2026   1872     1854      1365
+    aies 2020     71       71        35
+    aies 2021    107      107        72
+    aies 2022    106      106        48
+    aies 2023     92       92        59
+    aies 2024    158      158        64
+    aies 2025    250      250       115
+     fat 2020     93       93        45
+     fat 2021     74       74        57
+     fat 2022    164      164       108
+     fat 2023    141      141        74
+     fat 2024    155      155        81
+     fat 2025    187      187        71
+     fat 2026    296      296       226
+    iclr 2020     18       18        15
+    iclr 2021     46       45        38
+    iclr 2022     59       57        43
+    iclr 2023     98       98        73
+    iclr 2024    151      151       118
+    iclr 2025    230      230       182
+    iclr 2026    447      445       319
+    icml 2020     50       50        30
+    icml 2021     53       51        44
+    icml 2022     54       52        48
+    icml 2023     87       87        73
+    icml 2024    162      161       112
+    icml 2025    290      285       209
+ neurips 2020     74       74        61
+ neurips 2021    115      114        86
+ neurips 2022    183      183       149
+ neurips 2023    272      272       199
+ neurips 2024    394      394       282
+ neurips 2025    460      458       357
+   satml 2023     35       35        26
+   satml 2024     33       33        32
+   satml 2025     44       44        41
+   satml 2026     53       53        44
+total: 10547 papers, 10506 resolved, 7881 with references; 34160 citation edges within the corpus

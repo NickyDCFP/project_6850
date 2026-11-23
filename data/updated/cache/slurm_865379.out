@@ -1,0 +1,7 @@
+2026-11-21 16:26:54 pipeline started (pid 3700413)
+2026-11-21 16:26:54 notified: pipeline started
+2026-11-21 16:26:54 citations (shipped corpus) started, pid 3700423
+2026-11-21 16:26:54 filter run, budget 185 requests -> data/updated/cache/filter_run_2026-11-21_1626.log
+2026-11-21 16:34:29   retried because of: {"ClientError 429 RESOURCE_EXHAUSTED. {'error': {'code": 49}
+2026-11-21 16:34:29   this run: {'papers': 2695, 'passed': 1580, 'failed batches': 2}, 185 requests, tokens {'calls': 136, 'input': 987132, 'output': 173496}
+2026-11-21 16:34:29 519 candidates left; sleeping 38431s until the quota resets

@@ -1,0 +1,6 @@
+6054 new candidates without a decision -> 305 batches; budget 350 requests
+  400 judged (222 passed), 27 requests
+  800 judged (439 passed), 53 requests
+  1200 judged (668 passed), 80 requests
+  1600 judged (886 passed), 108 requests
+  2000 judged (1115 passed), 136 requests

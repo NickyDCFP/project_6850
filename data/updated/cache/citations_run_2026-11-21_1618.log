@@ -1,0 +1,20 @@
+6442 corpus papers, 4707 to resolve
+by id: 2645 of 4707 papers have an ACL id, DOI or arXiv id
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "collection/fetch_citations.py", line 192, in <module>
+    main()
+  File "collection/fetch_citations.py", line 155, in main
+    resolve(todo, papers, extra, cache)
+  File "collection/fetch_citations.py", line 113, in resolve
+    for (cid, key), hit in zip(chunk, s2_batch([k for _, k in chunk], FIELDS)):
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "collection/apis.py", line 102, in s2_batch
+    out.extend(get_json(f'{S2}/paper/batch', {'fields': fields}, json_body={'ids': chunk},
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "collection/apis.py", line 45, in get_json
+    r.raise_for_status()
+  File "venv/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.semanticscholar.org/graph/v1/paper/batch?fields=title%2Cyear%2CexternalIds%2CcitationCount%2CinfluentialCitationCount%2CreferenceCount%2Creferences.paperId%2Creferences.externalIds%2Creferences.title%2Creferences.year

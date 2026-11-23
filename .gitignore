@@ -5,3 +5,7 @@ __pycache__/*
 anthology+abstracts.bib
 dblp.xml
 .DS_Store
+data/raw/
+# Rebuildable, too large for git; see collection/README.md "What is in git"
+data/updated/collected/
+data/updated/cache/citations.jsonl

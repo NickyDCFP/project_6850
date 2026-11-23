@@ -1,0 +1,4 @@
+2026-11-21 16:25:09 pipeline started (pid 3699767)
+2026-11-21 16:25:09 notified: pipeline started
+2026-11-21 16:25:09 citations (shipped corpus) started, pid 3699776
+2026-11-21 16:25:09 filter run, budget 220 requests -> data/updated/cache/filter_run_2026-11-21_1625.log

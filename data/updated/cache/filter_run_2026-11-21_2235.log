@@ -1,0 +1,12 @@
+519 new candidates without a decision -> 27 batches; budget 0 requests
+
+   venue year papers candidates judged passed
+    aaai 2026   4920        875    875    438
+     acl 2026  18344       3552   3552   1872
+    aies 2025    279        279    279    249
+     fat 2026    314        314    294    279
+    iclr 2026   5351        933    933    447
+    icml 2025   3341        557    557    290
+ neurips 2025   5823        897    460    236
+   satml 2026     62         62      0      0
+519 candidates still to judge

@@ -1,0 +1,15 @@
+519 new candidates without a decision -> 27 batches; budget 450 requests
+  400 judged (221 passed), 31 requests
+retried because of: {"ClientError 429 RESOURCE_EXHAUSTED. {'error': {'code": 9}
+this run: {'papers': 519, 'passed': 294}, 36 requests, tokens {'calls': 27, 'input': 194651, 'output': 33558}
+
+   venue year papers candidates judged passed
+    aaai 2026   4920        875    875    438
+     acl 2026  18344       3552   3552   1872
+    aies 2025    279        279    279    249
+     fat 2026    314        314    314    296
+    iclr 2026   5351        933    933    447
+    icml 2025   3341        557    557    290
+ neurips 2025   5823        897    897    460
+   satml 2026     62         62     62     53
+all new candidates judged

@@ -1,0 +1,153 @@
+{
+ "model": "gemini-3.1-flash-lite",
+ "prompt": "clarified",
+ "chunk": 20,
+ "n": 160,
+ "requests": 11,
+ "table": {
+  "fail->fail": 68,
+  "fail->pass": 12,
+  "pass->pass": 73,
+  "pass->fail": 7
+ },
+ "disagreements": [
+  [
+   "fail",
+   "pass",
+   "neurips",
+   "Distributionally Robust Optimization with Data Geometry.",
+   "The paper addresses Distributionally Robust Optimization, a key technique for ensuring model robustness against distribution shifts."
+  ],
+  [
+   "fail",
+   "pass",
+   "neurips",
+   "A teacher-teacher framework for clinical language representation learning.",
+   "The paper discusses a framework for clinical language models that specifically addresses privacy considerations and the handling of sensitive data."
+  ],
+  [
+   "pass",
+   "fail",
+   "neurips",
+   "Towards Unified Multimodal Editing with Enhanced Knowledge Collaboration.",
+   "This is a technical contribution to knowledge editing and model performance, not primarily focused on AI ethics or safety as defined."
+  ],
+  [
+   "pass",
+   "fail",
+   "neurips",
+   "IA-RED$^2$: Interpretability-Aware Redundancy Reduction for Vision Transformers.",
+   "While it mentions interpretability, the primary goal is computational efficiency and redundancy reduction in computer vision architectures, not AI ethics or safety."
+  ],
+  [
+   "pass",
+   "fail",
+   "neurips",
+   "Identifiable Contrastive Learning with Automatic Feature Importance Discovery.",
+   "This is a contribution to representation learning and feature identifiability in contrastive learning, not primarily focused on safety or ethics."
+  ],
+  [
+   "pass",
+   "fail",
+   "neurips",
+   "Modeling the Machine Learning Multiverse.",
+   "This is a methodology paper for scientific research practices in ML, not focused on the ethics or safety of AI systems themselves."
+  ],
+  [
+   "fail",
+   "pass",
+   "neurips",
+   "Open-Book Neural Algorithmic Reasoning.",
+   "The paper explicitly introduces an 'open-book' attention mechanism as a robust tool for interpretable multi-task training, which falls under the interpretability scope of AI safety."
+  ],
+  [
+   "fail",
+   "pass",
+   "neurips",
+   "PowerGraph: A power grid benchmark dataset for graph neural networks.",
+   "This paper focuses on system security analysis and explainability for critical power grid infrastructure using GNNs, which relates to AI safety in the context of critical infrastructure reliability."
+  ],
+  [
+   "fail",
+   "pass",
+   "neurips",
+   "Byzantine Robustness and Partial Participation Can Be Achieved at Once: Just Cli",
+   "The paper focuses on Byzantine fault tolerance in distributed learning, which is a core topic in AI safety related to model robustness against malicious actors."
+  ],
+  [
+   "fail",
+   "pass",
+   "neurips",
+   "Neural Relation Graph: A Unified Framework for Identifying Label Noise and Outli",
+   "The paper focuses on identifying label noise and outliers (OOD data) in large-scale datasets, which is a recognized technical challenge in AI safety and model robustness."
+  ],
+  [
+   "fail",
+   "pass",
+   "neurips",
+   "Log-Likelihood Ratio Minimizing Flows: Towards Robust and Quantifiable Neural Di",
+   "The paper deals with distribution alignment and domain adaptation using a new objective to preserve structural properties, which relates to robustness in domain shift scenarios."
+  ],
+  [
+   "pass",
+   "fail",
+   "aaai",
+   "DIBS: Diversity Inducing Information Bottleneck in Model Ensembles.",
+   "The paper focuses on improving predictive accuracy and generalization performance on benchmark datasets, which is general machine learning rather than AI safety."
+  ],
+  [
+   "fail",
+   "pass",
+   "aaai",
+   "Gait Recognition for Co-Existing Multiple People Using Millimeter Wave Sensing.",
+   "The paper explicitly focuses on developing privacy-preserving human recognition technologies, which falls under AI ethics regarding surveillance and privacy."
+  ],
+  [
+   "fail",
+   "pass",
+   "aaai",
+   "Graph Neural Network-Based Anomaly Detection in Multivariate Time Series.",
+   "The paper focuses on anomaly detection and providing 'explainability for detected anomalies' in multivariate time series, which fits into the category of interpretability."
+  ],
+  [
+   "pass",
+   "fail",
+   "iclr",
+   "Decentralized Deep Learning with Arbitrary Communication Compression.",
+   "The paper focuses on efficient decentralized training and communication compression, which are general machine learning optimization topics rather than AI safety or ethics."
+  ],
+  [
+   "pass",
+   "fail",
+   "iclr",
+   "Contrastive Preference Learning: Learning from Human Feedback without Reinforcem",
+   "The abstract is incomplete and mentions only peer review; it does not contain sufficient information to evaluate as an AI ethics or safety paper."
+  ],
+  [
+   "fail",
+   "pass",
+   "fat",
+   "Is It Fair Enough? Supporting Equitable Group Work Assignment with Work Division",
+   "Investigates human-computer interaction regarding equity and accountability in group-based collaborative tasks using a custom interface."
+  ],
+  [
+   "fail",
+   "pass",
+   "aies",
+   "Fair Allocation through Selective Information Acquisition.",
+   "The paper addresses fairness and the mitigation of allocation disparities caused by information gaps in algorithmic decision-making."
+  ],
+  [
+   "fail",
+   "pass",
+   "aies",
+   "Blacklists and Redlists in the Chinese Social Credit System: Diversity, Flexibil",
+   "The paper provides an empirical study of a socio-technical system's impact on society and specifically initiates discussion on the ethical dimensions of such research."
+  ]
+ ],
+ "usage": {
+  "calls": 11,
+  "input": 62000,
+  "output": 10306
+ }
+}

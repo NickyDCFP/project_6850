@@ -1,0 +1,33 @@
+6442 corpus papers, 4707 to resolve
+by id: 2645 of 4707 papers have an ACL id, DOI or arXiv id
+  200/2645
+  400/2645
+  600/2645
+  800/2645
+  1000/2645
+  1200/2645
+  1400/2645
+  1600/2645
+  1800/2645
+  2000/2645
+  2200/2645
+  2400/2645
+  2600/2645
+  2645/2645
+by title: 3587 papers
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "collection/fetch_citations.py", line 192, in <module>
+    main()
+  File "collection/fetch_citations.py", line 155, in main
+    resolve(todo, papers, extra, cache)
+  File "collection/fetch_citations.py", line 124, in resolve
+    hit = s2_match(title, 'title,year')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "collection/apis.py", line 109, in s2_match
+    res = get_json(f'{S2}/paper/search/match', {'query': title, 'fields': fields}, headers=_s2_headers(),
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "collection/apis.py", line 47, in get_json
+    raise RuntimeError(f'giving up on {url} after {tries} tries')
+RuntimeError: giving up on https://api.semanticscholar.org/graph/v1/paper/search/match after 8 tries
