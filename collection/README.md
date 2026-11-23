@@ -11,7 +11,7 @@ Run from the repository root, in order:
     #    https://aclanthology.org/anthology+abstracts.bib.gz
     python -m collection.collect_dblp        # ~6 min
     python -m collection.collect_acl         # ~1.5 min
-    python -m collection.enrich_abstracts    # ~1-2 h, resumable
+    python -m collection.enrich_abstracts --stages pages s2-ids openalex-doi   # ~1-2 h first time, resumable
     python -m collection.filter_papers --validate 160
     python -m collection.filter_papers --max-calls 450   # rerun until "all new candidates judged"
     python -m collection.fetch_citations     # ~2-3 h without a Semantic Scholar key, resumable
@@ -64,7 +64,7 @@ Not committed (gitignored, too large):
 | Path | Size | How to get it back | Exact? |
 |---|---|---|---|
 | `data/updated/cache/citations.jsonl` | 93 MB | Nothing to do: `python -m collection.fetch_citations` recreates it from `citations/papers.jsonl` when it is missing, with no API requests. | Yes, identical. |
-| `data/updated/collected/` | 268 MB | Download the dumps (step 0), then `collect_dblp`, `collect_acl`, `enrich_abstracts`. The committed `cache/abstracts.jsonl` makes the last step reuse every abstract already found. | Only with the same dumps (sha256 below). DBLP and the Anthology publish just the latest dump, so a later download gives a superset: newly indexed papers become new filter candidates, everything already judged is reused from `cache/filter_decisions.jsonl`. |
+| `data/updated/collected/` | 268 MB | Download the dumps (step 0), then `collect_dblp`, `collect_acl`, `enrich_abstracts --stages pages s2-ids openalex-doi`. No API requests: the committed `cache/abstracts.jsonl` records every lookup these stages made, including misses. (The corpus was built without the `s2-title` stage; adding it would send ~2,700 Semantic Scholar requests, mostly ACL, and could change abstracts and hence filter candidates.) | Only with the same dumps (sha256 below). DBLP and the Anthology publish just the latest dump, so a later download gives a superset: newly indexed papers become new filter candidates, everything already judged is reused from `cache/filter_decisions.jsonl`. |
 | `data/raw/` | 1.4 GB | Step 0. | As above. |
 
 `collected/` is needed only to re-run `filter_papers` or to resolve citations for papers not yet in
